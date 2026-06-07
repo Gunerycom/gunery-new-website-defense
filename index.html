@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gunery. Strategic advisory and business development for defense companies entering Latin America.">
+    <title>Gunery. Strategic Advisory for Latin America</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Video -->
+    <div class="video-bg">
+        <video autoplay muted loop playsinline id="bgVideo">
+            <source src="background-video-liquid-waves.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="page-wrapper">
+
+        <!-- Header: Logo + Navigation + Language Switcher -->
+        <header class="header">
+            <div class="header-left">
+                <img src="Gunery Type Logo - White.png" alt="Gunery" class="logo">
+                <nav class="main-nav" id="mainNav">
+                    <button class="nav-item" data-menu="company" data-en="Company" data-tr="Şirket" data-es="Company">Company</button>
+                    <button class="nav-item" data-menu="resources" data-en="Resources" data-tr="Kaynaklar" data-es="Resources">Resources</button>
+                    <button class="nav-item" data-menu="contact" data-en="Contact" data-tr="İletişim" data-es="Contact">Contact</button>
+                </nav>
+            </div>
+            <nav class="lang-switcher" id="langSwitcher">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <span class="lang-sep">—</span>
+                <button class="lang-btn" data-lang="tr">TR</button>
+                <span class="lang-sep">—</span>
+                <button class="lang-btn" data-lang="es">ES</button>
+            </nav>
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </header>
+
+        <!-- Mega Menu Dropdown -->
+        <div class="mega-menu" id="megaMenu">
+            <div class="mega-menu-inner">
+                <div class="mega-left" id="megaLeft"></div>
+                <div class="mega-right" id="megaRight"></div>
+            </div>
+        </div>
+
+        <!-- Right Accordion Section -->
+        <nav class="services-accordion" id="servicesAccordion">
+
+            <!-- 01 -->
+            <div class="accordion-item" data-index="0">
+                <button class="accordion-trigger" aria-expanded="false">
+                    <span class="accordion-title" data-en="Market Entry Strategy" data-tr="Pazar Giriş Stratejisi" data-es="Market Entry Strategy">Market Entry Strategy</span>
+                    <span class="accordion-icon">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <line class="icon-h" x1="0" y1="9" x2="18" y2="9" stroke="white" stroke-width="1.5"/>
+                            <line class="icon-v" x1="9" y1="0" x2="9" y2="18" stroke="white" stroke-width="1.5"/>
+                        </svg>
+                    </span>
+                </button>
+                <div class="accordion-panel">
+                    <p class="accordion-desc"
+                       data-en="Helping defense companies establish a structured presence in Latin America."
+                       data-tr="Latin Amerika'ya açılmak isteyen savunma şirketleri için stratejik yol haritaları oluşturuyoruz."
+                       data-es="Helping defense companies establish a structured presence in Latin America."
+                    >Helping defense companies establish a structured presence in Latin America.</p>
+                    <ul class="accordion-list">
+                        <li data-en="Country prioritization" data-tr="Hedef ülke analizi" data-es="Country prioritization">Country prioritization</li>
+                        <li data-en="Market assessment" data-tr="Pazar araştırması" data-es="Market assessment">Market assessment</li>
+                        <li data-en="Competitive intelligence" data-tr="Rekabet analizi" data-es="Competitive intelligence">Competitive intelligence</li>
+                        <li data-en="Opportunity mapping" data-tr="Fırsat haritalandırması" data-es="Opportunity mapping">Opportunity mapping</li>
+                        <li data-en="Go-to-market planning" data-tr="Go-to-Market stratejisi" data-es="Go-to-market planning">Go-to-market planning</li>
+                        <li data-en="Local partnership identification" data-tr="Yerel ortaklık modelleri" data-es="Local partnership identification">Local partnership identification</li>
+                        <li data-en="Distributor and representative search" data-tr="Distribütör ve temsilci ağı oluşturulması" data-es="Distributor and representative search">Distributor and representative search</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 02 -->
+            <div class="accordion-item" data-index="1">
+                <button class="accordion-trigger" aria-expanded="false">
+                    <span class="accordion-title" data-en="Business Development &amp; Representation" data-tr="İş Geliştirme ve Yerel Temsil" data-es="Business Development &amp; Representation">Business Development &amp; Representation</span>
+                    <span class="accordion-icon">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <line class="icon-h" x1="0" y1="9" x2="18" y2="9" stroke="white" stroke-width="1.5"/>
+                            <line class="icon-v" x1="9" y1="0" x2="9" y2="18" stroke="white" stroke-width="1.5"/>
+                        </svg>
+                    </span>
+                </button>
+                <div class="accordion-panel">
+                    <p class="accordion-desc"
+                       data-en="Building relationships with the right stakeholders across the region."
+                       data-tr="Bölgedeki kamu kurumları, savunma kuruluşları ve özel sektör paydaşlarıyla ilişkilerin kurulmasını sağlıyoruz."
+                       data-es="Building relationships with the right stakeholders across the region."
+                    >Building relationships with the right stakeholders across the region.</p>
+                    <ul class="accordion-list">
+                        <li data-en="Government stakeholder engagement" data-tr="Kurumsal ilişki yönetimi" data-es="Government stakeholder engagement">Government stakeholder engagement</li>
+                        <li data-en="Military and law enforcement outreach" data-tr="Stratejik tanıştırmalar" data-es="Military and law enforcement outreach">Military and law enforcement outreach</li>
+                        <li data-en="Local representation" data-tr="Karar vericilere erişim" data-es="Local representation">Local representation</li>
+                        <li data-en="Strategic introductions" data-tr="Yerel temsil faaliyetleri" data-es="Strategic introductions">Strategic introductions</li>
+                        <li data-en="Partner development" data-tr="İş ortaklığı geliştirme" data-es="Partner development">Partner development</li>
+                        <li data-en="Meeting coordination" data-tr="Toplantı ve ziyaret organizasyonları" data-es="Meeting coordination">Meeting coordination</li>
+                        <li data-en="Opportunity qualification" data-tr="Fırsat takibi ve değerlendirmesi" data-es="Opportunity qualification">Opportunity qualification</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 03 -->
+            <div class="accordion-item" data-index="2">
+                <button class="accordion-trigger" aria-expanded="false">
+                    <span class="accordion-title" data-en="Sales Enablement" data-tr="Satış ve İhracat Destek Hizmetleri" data-es="Sales Enablement">Sales Enablement</span>
+                    <span class="accordion-icon">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <line class="icon-h" x1="0" y1="9" x2="18" y2="9" stroke="white" stroke-width="1.5"/>
+                            <line class="icon-v" x1="9" y1="0" x2="9" y2="18" stroke="white" stroke-width="1.5"/>
+                        </svg>
+                    </span>
+                </button>
+                <div class="accordion-panel">
+                    <p class="accordion-desc"
+                       data-en="Supporting commercial teams throughout the sales cycle."
+                       data-tr="Satış ekiplerinin Latin Amerika pazarında daha etkin hareket etmesini sağlıyoruz."
+                       data-es="Supporting commercial teams throughout the sales cycle."
+                    >Supporting commercial teams throughout the sales cycle.</p>
+                    <ul class="accordion-list">
+                        <li data-en="Sales presentations" data-tr="Kurumsal sunumlar" data-es="Sales presentations">Sales presentations</li>
+                        <li data-en="Capability statements" data-tr="Yetenek dokümanları" data-es="Capability statements">Capability statements</li>
+                        <li data-en="Product positioning" data-tr="Ürün konumlandırma çalışmaları" data-es="Product positioning">Product positioning</li>
+                        <li data-en="Proposal support" data-tr="Teklif süreçlerine destek" data-es="Proposal support">Proposal support</li>
+                        <li data-en="Bid preparation assistance" data-tr="Savunma fuarları hazırlıkları" data-es="Bid preparation assistance">Bid preparation assistance</li>
+                        <li data-en="Executive briefings" data-tr="Yönetici brifingleri" data-es="Executive briefings">Executive briefings</li>
+                        <li data-en="Trade show preparation" data-tr="Ticari görüşme desteği" data-es="Trade show preparation">Trade show preparation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 04 -->
+            <div class="accordion-item" data-index="3">
+                <button class="accordion-trigger" aria-expanded="false">
+                    <span class="accordion-title" data-en="Strategic Communications" data-tr="Stratejik İletişim ve Konumlandırma" data-es="Strategic Communications">Strategic Communications</span>
+                    <span class="accordion-icon">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <line class="icon-h" x1="0" y1="9" x2="18" y2="9" stroke="white" stroke-width="1.5"/>
+                            <line class="icon-v" x1="9" y1="0" x2="9" y2="18" stroke="white" stroke-width="1.5"/>
+                        </svg>
+                    </span>
+                </button>
+                <div class="accordion-panel">
+                    <p class="accordion-desc"
+                       data-en="Helping defense companies communicate capability with credibility."
+                       data-tr="Savunma şirketlerinin bölgesel görünürlüğünü ve güvenilirliğini artırıyoruz."
+                       data-es="Helping defense companies communicate capability with credibility."
+                    >Helping defense companies communicate capability with credibility.</p>
+                    <ul class="accordion-list">
+                        <li data-en="Corporate positioning" data-tr="Kurumsal konumlandırma" data-es="Corporate positioning">Corporate positioning</li>
+                        <li data-en="Executive messaging" data-tr="Marka mesajları" data-es="Executive messaging">Executive messaging</li>
+                        <li data-en="Thought leadership" data-tr="Liderlik iletişimi" data-es="Thought leadership">Thought leadership</li>
+                        <li data-en="Market-specific content" data-tr="Bölgesel içerik geliştirme" data-es="Market-specific content">Market-specific content</li>
+                        <li data-en="Localized communications" data-tr="Yerelleştirilmiş iletişim çalışmaları" data-es="Localized communications">Localized communications</li>
+                        <li data-en="Digital presence" data-tr="Dijital görünürlük" data-es="Digital presence">Digital presence</li>
+                        <li data-en="Industry media engagement" data-tr="Sektörel medya ilişkileri" data-es="Industry media engagement">Industry media engagement</li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+
+        <!-- Bottom Left Tagline -->
+        <div class="tagline" id="tagline">
+            <!-- EN -->
+            <h1 class="tagline-text" data-lang="en">
+                <span class="tagline-grey">Latin America Defense</span><br>
+                <span class="tagline-white">Market Access Partner</span>
+            </h1>
+            <!-- TR -->
+            <h1 class="tagline-text" data-lang="tr" style="display:none;">
+                <span class="tagline-grey">Türk Savunma Sanayii Şirketlerinin</span><br>
+                <span class="tagline-white">Latin Amerika Pazar Erişimi ve İş Geliştirme Ortağı</span>
+            </h1>
+            <!-- ES -->
+            <h1 class="tagline-text" data-lang="es" style="display:none;">
+                <span class="tagline-grey">Socio de Acceso al Mercado</span><br>
+                <span class="tagline-white">de Defensa en América Latina</span>
+            </h1>
+        </div>
+
+        <!-- Bottom Center Copyright -->
+        <div class="copyright">
+            <p>&copy; 2026 Gunery<sup>&reg;</sup></p>
+        </div>
+
+    </div>
+
+    <!-- Article Modal Overlay -->
+    <div class="article-overlay" id="articleOverlay">
+        <div class="article-progress-bar" id="articleProgressBar"></div>
+        <button class="article-close" id="articleClose" aria-label="Close article">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <line x1="4" y1="4" x2="16" y2="16" stroke="white" stroke-width="1.5"/>
+                <line x1="16" y1="4" x2="4" y2="16" stroke="white" stroke-width="1.5"/>
+            </svg>
+        </button>
+        <div class="article-scroll" id="articleScroll">
+            <article class="article-container" id="articleContainer">
+                <!-- Dynamically populated by JS -->
+            </article>
+        </div>
+    </div>
+
+    <!-- Hidden Netlify Form to register form fields during build -->
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="text" name="surname" />
+        <input type="text" name="company" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+    </form>
+
+    <!-- Mobile Drawer Overlay -->
+    <div class="mobile-drawer" id="mobileDrawer">
+        <div class="drawer-scroll">
+            <div class="drawer-content-inner">
+                <nav class="drawer-nav" id="drawerNav">
+                    <!-- Populated dynamically by JS -->
+                </nav>
+                <div class="drawer-footer">
+                    <nav class="drawer-lang" id="drawerLangSwitcher">
+                        <!-- Populated dynamically by JS -->
+                    </nav>
+                    <div class="drawer-copyright">&copy; 2026 Gunery<sup>&reg;</sup></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
