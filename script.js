@@ -3089,6 +3089,7 @@ document.addEventListener('DOMContentLoaded', () => {
         alertBtn.addEventListener('click', () => {
             const isActive = alertBtn.classList.toggle('active');
             opportunityCard.classList.toggle('active');
+            document.body.classList.toggle('opportunity-active', isActive);
             updateAlertTooltip();
         });
         updateAlertTooltip();
@@ -3099,6 +3100,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (alertBtn && opportunityCard) {
             alertBtn.classList.remove('active');
             opportunityCard.classList.remove('active');
+            document.body.classList.remove('opportunity-active');
             updateAlertTooltip();
         }
 
