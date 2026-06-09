@@ -345,7 +345,7 @@ html, body {
 /* ============================================
    SERVICES ACCORDION (Right Side)
    ============================================ */
-.services-accordion {
+.services-wrapper {
     position: absolute;
     right: 48px;
     top: 50%;
@@ -355,6 +355,52 @@ html, body {
     opacity: 0;
     animation: fadeInRight 0.9s ease forwards;
     animation-delay: 0.6s;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: opacity 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94), filter 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.services-title-card {
+    width: fit-content;
+    align-self: flex-start;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.4s ease, border-color 0.4s ease;
+}
+
+.services-title-card:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.12);
+}
+
+.services-title-dot {
+    width: 6px;
+    height: 6px;
+    background: #00ff66;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #00ff66;
+    animation: hintDotPulseGreen 1.5s infinite;
+}
+
+.services-title-text {
+    font-size: 11.5px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.95);
+    text-transform: none;
+    white-space: nowrap;
+}
+
+.services-accordion {
+    width: 100%;
     background: rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -576,6 +622,18 @@ html, body {
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
+}
+
+@keyframes hintDotPulseGreen {
+    0%, 100% {
+        opacity: 0.5;
+        transform: scale(0.9);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.25);
+        box-shadow: 0 0 12px rgba(0, 255, 102, 0.8);
+    }
 }
 
 /* ============================================
@@ -1699,6 +1757,467 @@ html, body {
 }
 
 /* ============================================
+   OPPORTUNITY ALERT (Left Side)
+   ============================================ */
+.opportunity-showcase {
+    position: absolute;
+    left: 48px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 80;
+}
+
+/* Alert Button Style (Glowing Orange/Red Theme) */
+.alert-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255, 87, 34, 0.06);
+    border: 1px solid rgba(255, 87, 34, 0.25);
+    color: rgba(255, 87, 34, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    outline: none;
+    box-shadow: 0 4px 15px rgba(255, 87, 34, 0.1), inset 0 1px 1px rgba(255, 255, 255, 0.05);
+    position: relative;
+    overflow: hidden;
+    z-index: 101;
+}
+
+.alert-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+        to right,
+        rgba(255, 87, 34, 0) 0%,
+        rgba(255, 255, 255, 0.3) 50%,
+        rgba(255, 87, 34, 0) 100%
+    );
+    transform: skewX(-25deg);
+    pointer-events: none;
+    z-index: 1;
+    animation: buttonShine 3.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+}
+
+.alert-btn:hover {
+    background: rgba(255, 87, 34, 0.12);
+    border-color: rgba(255, 87, 34, 0.6);
+    color: #ff7a59;
+    box-shadow: 0 0 20px rgba(255, 87, 34, 0.35), inset 0 1px 2px rgba(255, 255, 255, 0.1);
+}
+
+.alert-btn.active {
+    background: rgba(255, 87, 34, 0.2);
+    border-color: #ff5722;
+    color: #fff;
+    box-shadow: 0 0 25px rgba(255, 87, 34, 0.5), inset 0 1px 2px rgba(255, 255, 255, 0.15);
+}
+
+.alert-btn svg {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.4s ease;
+}
+
+.alert-btn.active svg {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 5px rgba(255, 87, 34, 0.8));
+    animation: bellShake 0.6s ease;
+}
+
+@keyframes bellShake {
+    0%, 100% { transform: rotate(0); }
+    15% { transform: rotate(15deg); }
+    30% { transform: rotate(-15deg); }
+    45% { transform: rotate(10deg); }
+    60% { transform: rotate(-10deg); }
+    75% { transform: rotate(4deg); }
+    90% { transform: rotate(-4deg); }
+}
+
+/* Alert Button Sonar Wave */
+.alert-btn-sonar {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    width: 48px;
+    height: 48px;
+    margin-left: -24px;
+    margin-top: -24px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 87, 34, 0.4);
+    pointer-events: none;
+    z-index: 99;
+    opacity: 0;
+    transform: scale(1);
+    animation: sonarRippleOrange 4s cubic-bezier(0.1, 0.8, 0.3, 1) infinite;
+}
+
+.alert-btn.active ~ .alert-btn-sonar {
+    animation: none;
+    opacity: 0;
+    display: none;
+}
+
+@keyframes sonarRippleOrange {
+    0% {
+        transform: scale(0.95);
+        opacity: 0;
+        box-shadow: 0 0 0 0 rgba(255, 87, 34, 0.2);
+    }
+    10% {
+        opacity: 0.85;
+        border-color: rgba(255, 87, 34, 0.5);
+    }
+    100% {
+        transform: scale(1.8);
+        opacity: 0;
+        border-color: rgba(255, 87, 34, 0);
+        box-shadow: 0 0 20px 10px rgba(255, 87, 34, 0);
+    }
+}
+
+/* Floating Alert Text Hint Badge */
+.alert-hint {
+    position: absolute;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%) translateX(0);
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 11.5px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.95);
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 1;
+    transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 98;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.alert-btn.active ~ .alert-hint,
+.alert-btn:hover ~ .alert-hint {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transform: translateY(-50%) translateX(-15px) !important;
+    transition: all 0.3s ease;
+}
+
+.alert-hint-dot {
+    width: 6px;
+    height: 6px;
+    background: #ff3d00;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #ff3d00;
+    animation: hintDotPulseOrange 1.5s infinite;
+}
+
+@keyframes hintDotPulseOrange {
+    0%, 100% {
+        opacity: 0.5;
+        transform: scale(0.9);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.25);
+        box-shadow: 0 0 12px rgba(255, 61, 0, 0.8);
+    }
+}
+
+/* Alert Button Tooltip */
+.alert-btn::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%) translateX(-10px);
+    background: rgba(0, 0, 0, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.85);
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    z-index: 110;
+}
+
+.alert-btn:hover::after {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0);
+}
+
+/* Opportunity Card Glass Style */
+.opportunity-card {
+    position: absolute;
+    left: 68px;
+    top: 50%;
+    transform: translateY(-50%) translateX(-30px);
+    width: 660px;
+    height: 280px;
+    opacity: 0;
+    visibility: hidden;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    padding: 20px;
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    pointer-events: none;
+}
+
+.opportunity-card.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%) translateX(0);
+    pointer-events: auto;
+}
+
+.opportunity-card-inner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Opportunity Card Left (Image Column) */
+.opportunity-card-left {
+    width: 46%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s;
+}
+
+.opportunity-card.active .opportunity-card-left {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.opportunity-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.opportunity-card-left:hover .opportunity-card-image {
+    transform: scale(1.05);
+}
+
+/* Corner Brackets on Image */
+.opportunity-card-left::before,
+.opportunity-card-left::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-color: rgba(255, 87, 34, 0.35);
+    border-style: solid;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.opportunity-card-left::before {
+    top: 8px;
+    left: 8px;
+    border-width: 1px 0 0 1px;
+}
+
+.opportunity-card-left::after {
+    bottom: 8px;
+    right: 8px;
+    border-width: 0 1px 1px 0;
+}
+
+/* Opportunity Card Right (Text Column) */
+.opportunity-card-right {
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2px 0;
+    opacity: 0;
+    transform: translateX(20px);
+    transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s;
+}
+
+.opportunity-card.active .opportunity-card-right {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.opportunity-card-header {
+    margin-bottom: 12px;
+}
+
+.opportunity-card-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255, 87, 34, 0.08);
+    border: 1px solid rgba(255, 87, 34, 0.2);
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.badge-dot {
+    width: 5px;
+    height: 5px;
+    background: #ff5722;
+    border-radius: 50%;
+    box-shadow: 0 0 6px #ff5722;
+    animation: hintDotPulseOrange 1.5s infinite;
+}
+
+.badge-text {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: #ff5722;
+    text-transform: uppercase;
+}
+
+.opportunity-card-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: -0.02em;
+    line-height: 1.3;
+}
+
+.opportunity-card-body {
+    margin-bottom: 16px;
+}
+
+.opportunity-card-text {
+    font-size: 13.5px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+/* CTA Button Inside Card */
+.opportunity-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(0, 0, 0, 0.45);
+    border: 1px solid rgba(255, 87, 34, 0.35);
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-size: 9.5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    outline: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), inset 0 1px 0px rgba(255, 255, 255, 0.05);
+    position: relative;
+    overflow: hidden;
+}
+
+.opportunity-cta-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+        to right,
+        rgba(255, 87, 34, 0) 0%,
+        rgba(255, 255, 255, 0.25) 50%,
+        rgba(255, 87, 34, 0) 100%
+    );
+    transform: skewX(-25deg);
+    pointer-events: none;
+    z-index: 1;
+    transition: left 0.5s ease;
+}
+
+.opportunity-cta-btn:hover::before {
+    left: 150%;
+}
+
+.opportunity-cta-btn:hover {
+    background: #ff5722;
+    border-color: #ff5722;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(255, 87, 34, 0.45);
+    transform: translateY(-1px);
+}
+
+.opportunity-cta-btn .cta-icon {
+    display: flex;
+    align-items: center;
+}
+
+.opportunity-cta-btn .cta-icon svg {
+    transition: transform 0.3s ease;
+}
+
+.opportunity-cta-btn:hover .cta-icon svg {
+    transform: translateX(3px);
+}
+
+/* Intermediate Sizing to Prevent Overlap */
+@media (max-width: 1300px) and (min-width: 1025px) {
+    .opportunity-card {
+        width: 500px;
+        height: 290px;
+        padding: 16px;
+    }
+    .opportunity-card-inner {
+        gap: 16px;
+    }
+    .opportunity-card-left {
+        width: 44%;
+    }
+    .opportunity-card-right {
+        width: 56%;
+    }
+    .opportunity-card-title {
+        font-size: 18px;
+    }
+    .opportunity-card-text {
+        font-size: 12px;
+    }
+}
+
+/* ============================================
    RESPONSIVE
    ============================================ */
 @media (max-width: 1024px) {
@@ -2097,14 +2616,28 @@ html, body {
         z-index: 1100;
     }
 
-    .services-accordion {
+    .services-wrapper {
         position: relative;
         right: auto;
         top: auto;
         transform: none;
         width: 100%;
         margin-top: 40px;
-        animation-name: fadeInUp;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        animation: fadeInUp 0.9s ease forwards;
+        animation-delay: 0.6s;
+    }
+
+    .services-accordion {
+        position: relative;
+        right: auto;
+        top: auto;
+        transform: none;
+        width: 100%;
+        margin-top: 0;
+        animation: none;
     }
 
     .accordion-trigger {
@@ -2215,6 +2748,140 @@ html, body {
         height: 70px;
     }
     .contact-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Responsive Opportunity Showcase */
+    .opportunity-showcase {
+        position: relative;
+        left: auto;
+        top: auto;
+        transform: none;
+        width: 100%;
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .alert-btn {
+        position: relative;
+        left: auto;
+        top: auto;
+        transform: none;
+    }
+    
+    .alert-btn::after {
+        display: none !important;
+    }
+
+    .alert-btn-sonar {
+        left: 50% !important;
+        top: 24px !important;
+        margin: 0 !important;
+        transform: translate(-50%, -50%) scale(1);
+        animation: sonarRippleMobileOrange 4s cubic-bezier(0.1, 0.8, 0.3, 1) infinite !important;
+    }
+
+    @keyframes sonarRippleMobileOrange {
+        0% {
+            transform: translate(-50%, -50%) scale(0.95);
+            opacity: 0;
+            box-shadow: 0 0 0 0 rgba(255, 87, 34, 0.2);
+        }
+        10% {
+            opacity: 0.85;
+            border-color: rgba(255, 87, 34, 0.4);
+        }
+        100% {
+            transform: translate(-50%, -50%) scale(1.8);
+            opacity: 0;
+            border-color: rgba(255, 87, 34, 0);
+            box-shadow: 0 0 20px 10px rgba(255, 87, 34, 0);
+        }
+    }
+
+    .alert-hint {
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+        transform: translateY(0) !important;
+        margin: 0 auto !important;
+        opacity: 1 !important;
+        transition: all 0.5s ease;
+    }
+
+    .alert-btn.active ~ .alert-hint,
+    .alert-btn:hover ~ .alert-hint {
+        display: none !important;
+        opacity: 0 !important;
+    }
+
+    .opportunity-card {
+        position: relative;
+        left: auto;
+        top: auto;
+        transform: translateY(-15px);
+        width: 100%;
+        height: auto;
+        max-height: 0;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+        padding: 0 16px;
+        margin: 0;
+        transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        border: none;
+    }
+
+    .opportunity-card.active {
+        max-height: 800px;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        padding: 20px 16px;
+        border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .opportunity-card-inner {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .opportunity-card-left {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1.5 / 1;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: all 0.5s ease 0.1s;
+    }
+    
+    .opportunity-card.active .opportunity-card-left {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .opportunity-card-right {
+        width: 100%;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: all 0.5s ease 0.2s;
+    }
+    
+    .opportunity-card.active .opportunity-card-right {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+    .opportunity-card-text {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .opportunity-cta-btn {
         width: 100%;
         justify-content: center;
     }

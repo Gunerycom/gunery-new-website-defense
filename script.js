@@ -2494,6 +2494,11 @@ document.addEventListener('DOMContentLoaded', () => {
     let activeMenu = null;
     let menuTimeout = null;
 
+    // Opportunity Alert Elements
+    const alertBtn = document.getElementById('alertBtn');
+    const opportunityCard = document.getElementById('opportunityCard');
+    const opportunityCtaBtn = document.getElementById('opportunityCtaBtn');
+
     // --------------------------------------------
     // ACCORDION LOGIC
     // --------------------------------------------
@@ -3015,14 +3020,19 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // 3. Translate accordion elements using data attributes
-        const translatableElements = accordion.querySelectorAll('[data-en], [data-tr], [data-es]');
+        // 3. Translate accordion and alert elements using data attributes
+        const translatableElements = document.querySelectorAll('.services-wrapper [data-en], .opportunity-showcase [data-en]');
         translatableElements.forEach(element => {
             const newText = element.getAttribute(`data-${lang}`);
             if (newText) {
                 element.innerHTML = newText;
             }
         });
+
+        // Update alert tooltip translation
+        if (typeof updateAlertTooltip === 'function') {
+            updateAlertTooltip();
+        }
 
         // 4. Recalculate open accordion height
         const activeItem = accordion.querySelector('.accordion-item.active');
@@ -3059,6 +3069,77 @@ document.addEventListener('DOMContentLoaded', () => {
             switchLanguage(targetLang);
         });
     });
+
+    // --------------------------------------------
+    // OPPORTUNITY ALERT EVENTS & CONTACT TRIGGER
+    // --------------------------------------------
+    function updateAlertTooltip() {
+        if (!alertBtn) return;
+        const isActive = alertBtn.classList.contains('active');
+        if (currentLang === 'tr') {
+            alertBtn.setAttribute('data-tooltip', isActive ? 'Kapat' : 'Alarmı Göster');
+        } else if (currentLang === 'es') {
+            alertBtn.setAttribute('data-tooltip', isActive ? 'Cerrar' : 'Ver Alerta');
+        } else {
+            alertBtn.setAttribute('data-tooltip', isActive ? 'Close Alert' : 'View Alert');
+        }
+    }
+
+    if (alertBtn && opportunityCard) {
+        alertBtn.addEventListener('click', () => {
+            const isActive = alertBtn.classList.toggle('active');
+            opportunityCard.classList.toggle('active');
+            updateAlertTooltip();
+        });
+        updateAlertTooltip();
+    }
+
+    function openContactForm() {
+        // Close opportunity alert card and set button to inactive
+        if (alertBtn && opportunityCard) {
+            alertBtn.classList.remove('active');
+            opportunityCard.classList.remove('active');
+            updateAlertTooltip();
+        }
+
+        if (window.innerWidth <= 1024) {
+            // Mobile: Open mobile drawer and expand contact section
+            openMobileDrawer();
+            setTimeout(() => {
+                const contactItem = drawerNav.querySelector('.drawer-nav-item[data-menu="contact"]');
+                if (contactItem) {
+                    if (!contactItem.classList.contains('active')) {
+                        const trigger = contactItem.querySelector('.drawer-nav-trigger');
+                        if (trigger) trigger.click();
+                    }
+                    // Scroll to the contact form smoothly inside the drawer scroll container
+                    const drawerScroll = document.querySelector('.mobile-drawer .drawer-scroll');
+                    const contactPanel = drawerNav.querySelector('.drawer-contact-panel');
+                    if (drawerScroll && contactPanel) {
+                        drawerScroll.scrollTo({
+                            top: contactPanel.offsetTop - 40,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            }, 350); // wait for drawer animation
+        } else {
+            // Desktop: Show the mega menu in contact mode
+            showMenu('contact');
+            // Focus on the first form input (name)
+            setTimeout(() => {
+                const nameInput = document.getElementById('contact-name');
+                if (nameInput) nameInput.focus();
+            }, 300);
+        }
+    }
+
+    if (opportunityCtaBtn) {
+        opportunityCtaBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            openContactForm();
+        });
+    }
 
     // --------------------------------------------
     // PARALLAX BACKGROUND EFFECT
