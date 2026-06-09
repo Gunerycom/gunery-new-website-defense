@@ -327,26 +327,26 @@ const menuData = {
         es: [
             {
                 id: 'channels',
-                title: 'Channels',
-                subtitle: 'Reach out to us',
-                desc: 'Connect with our team for business representation or partner inquiries.',
+                title: 'Canales',
+                subtitle: 'Contáctenos',
+                desc: 'Comuníquese con nuestro equipo para representación comercial o consultas de socios.',
                 cards: [
-                    { title: 'Advisory', desc: 'advisory@gunery.com' },
-                    { title: 'Media', desc: 'media@gunery.com' },
-                    { title: 'Careers', desc: 'careers@gunery.com' },
+                    { title: 'Consultoría', desc: 'advisory@gunery.com' },
+                    { title: 'Medios', desc: 'media@gunery.com' },
+                    { title: 'Carreras', desc: 'careers@gunery.com' },
                     { title: 'General', desc: 'info@gunery.com' }
                 ]
             },
             {
                 id: 'regions',
-                title: 'Regions',
-                subtitle: 'Bilateral touchpoints',
-                desc: 'Find our primary advisory representatives and key offices in target countries.',
+                title: 'Regiones',
+                subtitle: 'Puntos de contacto bilaterales',
+                desc: 'Encuentre a nuestros representantes principales y oficinas clave en los países objetivo.',
                 cards: [
-                    { title: 'Bogotá', desc: 'Colombia hub' },
-                    { title: 'Ankara', desc: 'Turkey office' },
-                    { title: 'Santiago', desc: 'Chile representation' },
-                    { title: 'Lima', desc: 'Peru connection' }
+                    { title: 'Bogotá', desc: 'Centro en Colombia' },
+                    { title: 'Ankara', desc: 'Oficina en Turquía' },
+                    { title: 'Santiago', desc: 'Representación en Chile' },
+                    { title: 'Lima', desc: 'Conexión en Perú' }
                 ]
             }
         ]
@@ -449,6 +449,50 @@ const articleContent = {
                 <h3>Sonuç</h3>
                 <p>Savunma teknoloji ve ürün pazarlaması bir trend değil. Operasyonel bir gerçeklik. Bunu görmezden gelen şirketler, rakiplerinin neden hep ilk toplantıyı aldığını sormaya devam edecek. Yatırım yapanlar ise nedenini çoktan anlamış olacak.</p>
             `
+        },
+        es: {
+            category: 'Marketing de Defensa',
+            title: 'Marketing de Tecnología de Defensa 101',
+            desc: 'La industria de defensa solía vender a puerta cerrada. Esa era está terminando. Esto es lo que la reemplazó.',
+            readTime: '6 min de lectura',
+            date: 'Junio 2026',
+            thumbnail: 'thumbnails/dm-marketing-101.png',
+            body: `
+                <div class="article-keypoints">
+                    <div class="article-keypoints-title">Puntos Clave</div>
+                    <ul>
+                        <li>Las adquisiciones de defensa ya no son un juego a puerta cerrada. Los tomadores de decisiones lo buscan en Google antes de conocerlo</li>
+                        <li>Las empresas que invierten en marca, contenido y presencia digital están ganando con más frecuencia</li>
+                        <li>El marketing en defensa no se trata de anuncios llamativos. Se trata de credibilidad a escala</li>
+                        <li>Si su competidor se ve más profesional en línea, comenzará la conversación un paso adelante de usted</li>
+                    </ul>
+                </div>
+
+                <h2>El Viejo Método Está Muriendo</h2>
+                <p>Durante décadas, las empresas de defensa vendieron de la misma manera. Un apretón de manos en una feria comercial. Una llamada telefónica de un general retirado. Una presentación de PowerPoint pasada por los canales correctos. El marketing era algo secundario, si es que se pensaba en ello.</p>
+                <p>Ese modelo todavía existe. Pero ya no es suficiente.</p>
+                <p>Algo cambió en los últimos cinco años. Los oficiales de compras se volvieron más jóvenes. La investigación se trasladó a internet. Los tomadores de decisiones comenzaron a formarse opiniones sobre las empresas mucho antes de que ocurriera cualquier reunión formal. ¿Y las empresas que entendieron esto temprano? Empezaron a ganar de manera desproporcionada.</p>
+
+                <div class="article-pullquote">
+                    <p>"La primera impresión ahora ocurre en una pantalla, no en una mesa. Si su presencia digital no coincide con la calidad de su producto, ya ha perdido terreno."</p>
+                </div>
+
+                <h2>¿Qué Cambió?</h2>
+                <p>Tres cosas sucedieron casi simultáneamente.</p>
+                <p>Primero, un cambio generacional dentro de los ministerios de defensa. Los coroneles y jefes de adquisiciones de hoy crecieron con internet. Investigan a los proveedores de la misma manera que investigan todo lo demás. Miran sitios web, leen artículos, revisan perfiles de LinkedIn. Si su empresa parece que no ha actualizado su sitio web desde 2014, lo notan.</p>
+                <p>Segundo, el panorama competitivo se expandió. Más empresas que nunca están ingresando al espacio de la defensa. Startups, medianas empresas, participantes extranjeros. Cuando hay más jugadores en la mesa, la diferenciación importa más. Y la diferenciación comienza con cómo se presenta usted mismo.</p>
+                <p>Tercero, la definición de "credibilidad" evolucionó. Solía ser suficiente tener una sólida trayectoria y las relaciones correctas. Ahora la credibilidad incluye el liderazgo de opinión, la calidad del contenido, la identidad visual y la claridad con la que comunica lo que hace. Sigue tratándose de sustancia. Pero la sustancia sin visibilidad es una oportunidad perdida.</p>
+
+                <div class="article-divider"></div>
+
+                <h2>Cómo es en Realidad el Buen Marketing de Defensa</h2>
+                <p>Esto no se trata de publicar anuncios en Facebook o volverse viral en las redes sociales. El marketing de defensa se trata de construir una presencia profesional, creíble y fácil de encontrar que trabaje para usted las 24 horas del día.</p>
+                <p>Significa tener un sitio web que comunique claramente sus capacidades en un lenguaje que su comprador entienda. Significa producir contenido que demuestre experiencia sin revelar información patentada. Significa presentarse en ferias comerciales con materiales que coincidan con la calidad de su ingeniería.</p>
+                <p>El estándar no es tan alto como la gente piensa. La mayoría de las empresas de defensa están tan atrasadas en esto que incluso las mejoras básicas crean una separación competitiva real.</p>
+
+                <h3>En Resumen</h3>
+                <p>El marketing de defensa no es una tendencia. Es una realidad operativa. Las empresas que lo ignoren seguirán preguntándose por qué sus competidores siguen obteniendo la primera reunión. Las que inviertan en él entenderán exactamente por qué.</p>
+            `
         }
     },
     'dm-website-sales': {
@@ -546,6 +590,54 @@ const articleContent = {
 
                 <h3>Çözüm Düşündüğünüzden Daha Kolay</h3>
                 <p>Her şeyi sıfırdan kurmanıza gerek yok. Ana sayfanızla başlayın. Onu bir insanın okuyacağı gibi yeniden yazın. Görsellerinizi güncelleyin. Mobilde çalıştığından emin olun. Bunlar devrimci değişiklikler değil. Savunma şirketlerinin çoğunun hâlâ karşılayamadığı temel beklentiler.</p>
+            `
+        },
+        es: {
+            category: "Marketing de Defensa",
+            title: "Su Sitio Web es su Peor Vendedor (Y Usted ni Siquiera lo Sabe)",
+            desc: "La mayoría de los sitios web de empresas de defensa perjudican activamente sus negocios. Esta es la incómoda verdad sobre lo que ven los compradores.",
+            readTime: "5 min de lectura",
+            date: "Mayo 2026",
+            thumbnail: "thumbnails/dm-website-sales.png",
+            body: `
+<div class="article-keypoints">
+                    <div class="article-keypoints-title">Puntos Clave</div>
+                    <ul>
+                        <li>Los oficiales de adquisiciones revisan su sitio web antes de aceptar una reunión</li>
+                        <li>La mayoría de los sitios web de defensa parecen haber sido creados en 2012 y nunca más actualizados</li>
+                        <li>Un sitio web deficiente no solo no impresiona, sino que socava activamente su credibilidad</li>
+                        <li>No necesita un rediseño de un millón de dólares. Necesita claridad, velocidad y profesionalismo</li>
+                    </ul>
+                </div>
+
+                <h2>El Experimento que Nadie Hace</h2>
+                <p>Hagamos un ejercicio rápido. Abra el sitio web de su empresa en su teléfono ahora mismo. Finja que nunca ha oído hablar de su empresa. Dése treinta segundos.</p>
+                <p>¿Puede decir qué hace la empresa? ¿Puede encontrar las capacidades clave? ¿Se siente como una empresa en la que confiaría un contrato de defensa multimillonario?</p>
+                <p>Si dudó en alguna de esas preguntas, tiene un problema. Y ese problema le está costando más de lo que piensa.</p>
+
+                <div class="article-pullquote">
+                    <p>"Su sitio web no es un folleto. Es su primera reunión. Y en este momento, la mayoría de las empresas de defensa se presentan a esa reunión con la ropa arrugada."</p>
+                </div>
+
+                <h2>Lo que Realmente Hacen los Oficiales de Adquisiciones</h2>
+                <p>Hable con cualquiera que haya estado del lado del comprador en una adquisición de defensa y le dirá lo mismo. Antes de una reunión formal, antes de una presentación de capacidades, antes de que suceda algo oficial, lo investigan.</p>
+                <p>Revisan su sitio web. Miran su página de liderazgo. Leen cualquier contenido disponible. Se están formando una opinión antes de que usted sepa que está siendo evaluado.</p>
+                <p>Y ahí está el detalle. Lo están comparando con todas las demás empresas que evalúan al mismo tiempo. Si su competidor tiene un sitio limpio y moderno con mensajes claros y usted tiene una página desordenada con fotos de stock y párrafos densos, adivine quién empieza con más credibilidad.</p>
+
+                <div class="article-divider"></div>
+
+                <h2>Las Tres Cosas que Realmente Importan</h2>
+                <h3>Claridad</h3>
+                <p>¿Qué hace? ¿Para quién lo hace? ¿Por qué deberían elegirlo a usted? Si un visitante no puede responder estas tres preguntas en diez segundos, su sitio web está fallando en su tarea más básica.</p>
+
+                <h3>Velocidad</h3>
+                <p>Si su sitio web tarda más de tres segundos en cargarse, un porcentaje significativo de visitantes se irá antes de ver algo. Esto no es una opinión. Son datos confirmados en todas las industrias, incluida la de defensa.</p>
+
+                <h3>Profesionalismo</h3>
+                <p>Esto es simple. Su sitio web debe parecer que pertenece al tipo de empresa que desea proyectar. Si vende tecnología de defensa avanzada, su presencia digital debe reflejar ese nivel de sofisticación.</p>
+
+                <h3>La Solución es Más Simple de lo que Piensa</h3>
+                <p>No necesita reconstruir todo desde cero. Comience con su página de inicio. Reescríbala de manera que un ser humano pueda leerla. Actualice sus elementos visuales. Asegúrese de que funcione en dispositivos móviles. Estos no son cambios revolucionarios. Son expectativas básicas que la mayoría de las empresas de defensa aún no cumplen.</p>
             `
         }
     },
@@ -645,6 +737,54 @@ const articleContent = {
                 <h3>Görünmez Olmanın Gerçek Maliyeti</h3>
                 <p>Hiç duymadığınız fırsatlar, size en pahalıya mal olanlardır. Çünkü hiç değerlendirmeye alınmadığınız bir şey için rekabet edemezsiniz. Savunmada görünürlük bir lüks değildir. Önemli konuşmalara dahil olmanın bedelidir.</p>
             `
+        },
+        es: {
+            category: "Marketing de Defensa",
+            title: "Las Empresas que Ganan Contratos Comienzan Ganando la Atención",
+            desc: "Antes de la licitación (RFP), antes de la demostración, antes del apretón de manos. La verdadera competencia comienza antes de lo que piensa.",
+            readTime: "7 min de lectura",
+            date: "Abril 2026",
+            thumbnail: "thumbnails/dm-winning-attention.png",
+            body: `
+<div class="article-keypoints">
+                    <div class="article-keypoints-title">Puntos Clave</div>
+                    <ul>
+                        <li>Las empresas que dan forma a la conversación antes de que se publique la licitación (RFP) tienen una ventaja estructural</li>
+                        <li>La visibilidad no es vanidad. En defensa, ser conocido es ser considerado</li>
+                        <li>El contenido, la presencia en eventos y las comunicaciones estratégicas crean posicionamiento previo a la venta</li>
+                        <li>La mayoría de las empresas esperan oportunidades. Las inteligentes generan conciencia antes de que existan las oportunidades</li>
+                    </ul>
+                </div>
+
+                <h2>La Carrera Antes de la Carrera</h2>
+                <p>Hay algo de lo que la mayoría de las empresas de defensa no hablan. Para cuando se publica una licitación (RFP), la decisión ya está tomada a medias.</p>
+                <p>No oficialmente. No en papel. Pero en la práctica, el equipo de adquisiciones ya ha estado investigando. Ya han ido a conferencias. Ya han leído artículos. Ya se han formado una impresión sobre qué empresas son actores serios y de cuáles nunca han oído hablar.</p>
+                <p>Si se entera de una oportunidad por primera vez cuando la licitación se hace pública, ya va tarde. Las empresas que ganan de manera constante son las que fueron visibles mucho antes de que comenzara el proceso formal.</p>
+
+                <div class="article-pullquote">
+                    <p>"En defensa, la venta no comienza cuando envía una propuesta. Comienza la primera vez que alguien en la cadena de adquisiciones escucha su nombre y piensa: 'Conozco a esa empresa'."</p>
+                </div>
+
+                <h2>Cómo la Visibilidad Crea Ventaja</h2>
+                <p>Esto no se trata de ser famoso. Si trata de ser localizable y familiar cuando importa.</p>
+                <p>Cuando un ministerio de defensa comienza a explorar un nuevo requisito de capacidad, mira el mercado. Habla con colegas. Busca en línea. Asiste a eventos del sector. En cada uno de estos puntos de contacto, usted está presente o ausente.</p>
+                <p>Las empresas que se muestran en estas conversaciones iniciales, a través de contenido publicado, participación en eventos de la industria y una sólida presencia digital, obtienen algo invaluable. Son consideradas antes de que comience la competencia.</p>
+
+                <div class="article-divider"></div>
+
+                <h2>Tres Formas de Construir Visibilidad de Preventa</h2>
+                <h3>Publique lo que Sabe</h3>
+                <p>No necesita revelar secretos. Pero compartir perspectivas informadas sobre las tendencias del mercado, la adopción de tecnología y los desafíos operativos posiciona a su empresa como un actor con conocimientos. Los compradores confían en las empresas que demuestran comprender su mundo.</p>
+
+                <h3>Muéstrese Donde Importa</h3>
+                <p>No vale la pena asistir a todas las ferias comerciales. Pero aquellas que importan para su mercado objetivo deberían verlo de manera constante. No solo un stand. Espacios de conferencia, cenas de gala, reuniones paralelas específicas. Presencia con un propósito.</p>
+
+                <h3>Construya una Huella Digital</h3>
+                <p>Su sitio web, su presencia en LinkedIn, sus artículos publicados. Estos trabajan a su favor o en su contra todos los días. La pregunta es si los gestiona con intención o si los deja en piloto automático.</p>
+
+                <h3>El Costo Real de ser Invisible</h3>
+                <p>Las oportunidades de las que nunca se entera son las que más le cuestan. Porque no puede competir por algo para lo que nunca fue considerado. La visibilidad no es un lujo en defensa. Es el precio de admisión a las conversaciones que importan.</p>
+            `
         }
     },
     'dm-capability-docs': {
@@ -737,6 +877,51 @@ const articleContent = {
                 <p>Savunmada etkili iletişim kuran şirketler, sezgiye aykırı bir şey yapar. Daha az söylerler. Daha net söylerler. Ve bulmayı inanılmaz kolay yaparlar.</p>
                 <p>Yetenek dokümanınız hâlâ var olmalı. Ama birincil satış aracınız olmamalı. Zaten ilgilenen biri için destekleyici doküman olmalı, ilgiyi ilk başta yaratacak şey değil.</p>
             `
+        },
+        es: {
+            category: "Marketing de Defensa",
+            title: "Nadie Lee su Declaración de Capacidades. Esto es lo que Leen en su Lugar",
+            desc: "Las empresas de defensa dedican semanas a los documentos de capacidades. Los equipos de adquisiciones les dedican segundos. ¿Qué se lee realmente?",
+            readTime: "5 min de lectura",
+            date: "Marzo 2026",
+            thumbnail: "thumbnails/dm-capability-docs.png",
+            body: `
+<div class="article-keypoints">
+                    <div class="article-keypoints-title">Puntos Clave</div>
+                    <ul>
+                        <li>La declaración de capacidades tradicional ha muerto como herramienta principal de ventas</li>
+                        <li>Los oficiales de adquisiciones solo echan un vistazo. No leen PDFs de 40 páginas de principio a fin</li>
+                        <li>Lo que se lee: resúmenes de una página, resúmenes de casos, páginas web claras y publicaciones de LinkedIn</li>
+                        <li>El formato importa tanto como el contenido. Hágalo escaneable o será ignorado</li>
+                    </ul>
+                </div>
+
+                <h2>La Verdad Incómoda</h2>
+                <p>Su equipo dedicó tres semanas a esa declaración de capacidades. Diseño, ciclos de revisión, aprobaciones. Son cuarenta páginas de documentación técnica exhaustiva, detallada y bellamente formateada.</p>
+                <p>Nadie la lee.</p>
+                <p>Eso no es una exageración. Hable con oficiales de adquisiciones fuera de micrófono y le dirán lo mismo. Reciben docenas de declaraciones de capacidades. Prácticamente no tienen tiempo de leer ninguna de ellas. Lo que ocurre en su lugar es un desplazamiento rápido, un vistazo al resumen ejecutivo y una decisión de profundizar o no según las primeras impresiones.</p>
+
+                <div class="article-pullquote">
+                    <p>"Recibimos más documentos de capacidades de los que podemos revisar. Lo que capta mi atención no es la longitud. Es la claridad. Cuénteme qué hace, muéstreme dónde lo ha hecho y facilíteme encontrarlo."</p>
+                </div>
+
+                <h2>Lo que Realmente Capta la Atención</h2>
+                <h3>El Resumen de una Página (One-Pager)</h3>
+                <p>Una sola página que responde a tres preguntas. ¿Qué hace? ¿Dónde lo ha hecho? ¿Por qué debería importarnos? Si puede resumir toda su propuesta de valor en una sola página que un funcionario ocupado pueda leer en sesenta segundos, ya estará por delante del noventa por ciento de sus competidores.</p>
+
+                <h3>El Resumen de Caso</h3>
+                <p>No un caso de estudio detallado. Un resumen corto y específico. ¿Qué país? ¿Qué tipo de cliente? ¿Qué problema? ¿Qué resultado? Dos párrafos como máximo. Los detalles reales superan a las afirmaciones generales en todo momento.</p>
+
+                <h3>Su Sitio Web</h3>
+                <p>Esta es la declaración de capacidades que la gente realmente lee. Es a la que pueden acceder al instante, reenviar a un colega y volver a visitar sin tener que buscar en un archivo adjunto de correo electrónico. Su sitio web es su documento de capacidad siempre disponible.</p>
+
+                <div class="article-divider"></div>
+
+                <h2>El Formato Importa</h2>
+                <p>Las empresas de defensa tienden a comunicarse en exceso. El instinto es incluir todo, porque omitir algo se siente como un riesgo. Pero en la práctica, más información crea más ruido. And noise gets ignored.</p>
+                <p>Las empresas que se comunican eficazmente en defensa hacen algo contraintuitivo. Dicen menos. Lo dicen con más claridad. Y hacen que sea increíblemente fácil de encontrar.</p>
+                <p>Su declaración de capacidades aún debe existir. Pero no debe ser su herramienta de venta principal. Debe ser el documento de respaldo para alguien que ya está interesado, no lo que genera el interés en primer lugar.</p>
+            `
         }
     },
 
@@ -822,6 +1007,46 @@ const articleContent = {
                 <p>Artık gerçek bir karar verecek kadar bilginiz var. Bu pazar yatırıma değer mi? Fırsat gerçek mi yoksa teorik mi? Doğru ortaklarınız var mı? Rekabet ortamı yönetilebilir mi?</p>
                 <p>Dürüst değerlendirmeyi yazma zamanı. Yönetim kurulu için iyimser versiyonu değil. Gerçeğini. "Şunları öğrendik, durum bu ve önerimiz şu" diyen versiyonu.</p>
                 <p>Yeni savunma pazarlarında başarılı olan şirketler, bu doksan günü ciddiye alanlardır. Aceleyle geçiştirenler ise genellikle bir yıl sonra aynı süreci tekrar eder; hem de önemli para harcamış ve gösterecek hiçbir şeyleri olmadan.</p>
+            `
+        },
+        es: {
+            category: "Playbook",
+            title: "Sus Primeros 90 Días en un Nuevo Mercado de Defensa",
+            desc: "Acaba de aterrizar en un nuevo país con el mandato de construir un negocio de defensa. Así deberían ser los primeros tres meses.",
+            readTime: "7 min de lectura",
+            date: "Junio 2026",
+            thumbnail: "thumbnails/pb-first-90-days.png",
+            body: `
+<div class="article-keypoints">
+                    <div class="article-keypoints-title">Puntos Clave</div>
+                    <ul>
+                        <li>Los primeros 90 días son para aprender, no para vender. Resista la presión de cerrar acuerdos antes de tiempo</li>
+                        <li>Mapee el panorama institucional antes de mapear su canal de oportunidades</li>
+                        <li>Encuentre de tres a cinco personas que entiendan el ecosistema de defensa local y escúchelas</li>
+                        <li>Su primer viaje debería producir un baño de realidad, no un pronóstico de ventas</li>
+                    </ul>
+                </div>
+
+                <h2>Días 1 al 30: Escuchar</h2>
+                <p>La mayoría de las empresas se equivocan de inmediato en esto. Aterrizan en un nuevo mercado, programan reuniones con clientes potenciales y comienzan a vender. En el primer mes, han presentado sus capacidades a una docena de personas que sonrieron cortésmente y dijeron que estarían en contacto.</p>
+                <p>Nadie se pone en contacto.</p>
+                <p>Los primeros treinta días no deberían ser para vender. Deberían ser para entender. ¿Quién compra lo que usted vende? ¿Cómo lo compran? ¿Cómo es el proceso de adquisición desde adentro? ¿Quiénes son los competidores que ya están en este mercado? ¿Qué han hecho bien? ¿Qué han hecho mal?</p>
+
+                <div class="article-pullquote">
+                    <p>"El mayor error que cometen los nuevos participantes es asumir que su manual del mercado local funciona en todas partes. No es así. El primer mes es para aprender las reglas locales del juego."</p>
+                </div>
+
+                <h2>Días 31 al 60: Conectar</h2>
+                <p>Una vez que entienda el panorama, comience a construir relaciones con un propósito. No un networking aleatorio. Introducciones específicas a las personas que importan en su sector concreto.</p>
+                <p>Esto significa identificar los contactos institucionales correctos, las asociaciones comerciales pertinentes, los actores locales del sector que ya operan en el espacio al que desea ingresar. Significa asistir a los eventos adecuados. No como expositor. Como participante que está allí para aprender y conectar.</p>
+                <p>El objetivo para el día sesenta es simple. Debería poder nombrar a cinco personas en el ecosistema de defensa local que conozcan el nombre de su empresa y entiendan lo que hace.</p>
+
+                <div class="article-divider"></div>
+
+                <h2>Días 61 al 90: Evaluar</h2>
+                <p>Ahora tiene suficiente información para tomar una decisión real. ¿Vale la pena la inversión en este mercado? ¿Es la oportunidad real o teórica? ¿Tiene los socios adecuados? ¿Es manejable el panorama competitivo?</p>
+                <p>Aquí es cuando escribe la evaluación honesta. No la versión optimista para la junta. La real. La que dice "esto es lo que aprendimos, esto es lo que es verdad y esto es lo que recomendamos".</p>
+                <p>Las empresas que tienen éxito en los nuevos mercados de defensa son las que se toman en serio estos noventa días. Las que se apresuran suelen acabar repitiendo el proceso un año después, habiendo gastado una cantidad significativa de dinero sin nada que mostrar.</p>
             `
         }
     },
@@ -911,6 +1136,49 @@ const articleContent = {
                 <p>On sekiz ay sonra hiçbir şey olmamıştır. Sözleşme yok. Gerçek bir pipeline yok. Ve şirket, o pazarda başka biriyle çalışmasını engelleyen bir münhasırlık anlaşmasına kilitlenmiştir.</p>
                 <p>Çözüm gösterişsiz ama hayatidir. Durum tespiti. Referans kontrolü. Münhasırlık öncesi deneme süresi. Ve ilişki sonuç vermezse sizi koruyan bir çıkış maddesi.</p>
             `
+        },
+        es: {
+            category: "Playbook",
+            title: "Socios Locales, Distribuidores o JVs: Si Elige Mal, Perderá Dos Años",
+            desc: "La decisión de la estructura de socios es una de las elecciones más importantes al ingresar a un mercado de defensa. La mayoría de las empresas la toman demasiado rápido.",
+            readTime: "6 min de lectura",
+            date: "Mayo 2026",
+            thumbnail: "thumbnails/pb-local-reps.png",
+            body: `
+<div class="article-keypoints">
+                    <div class="article-keypoints-title">Puntos Clave</div>
+                    <ul>
+                        <li>No existe una respuesta correcta universal. La mejor estructura depende del mercado, el producto y el ciclo de ventas</li>
+                        <li>Un mal socio local es peor que no tener ningún socio local</li>
+                        <li>La mayoría de las empresas eligen socios demasiado rápido basándose en quién se les acerca primero</li>
+                        <li>La cláusula de salida de su acuerdo de asociación es más importante que los términos de entrada</li>
+                    </ul>
+                </div>
+
+                <h2>Los Tres Modelos</h2>
+                <p>Toda empresa de defensa que ingresa a un mercado extranjero se enfrenta a la misma pregunta estructural. ¿Contrata a un representante local? ¿Designa a un distribuidor? ¿O forma una empresa conjunta (JV) con una empresa local?</p>
+                <p>Cada modelo tiene ventajas reales y riesgos reales. Y la elección equivocada no solo lo frena, sino que puede dejarlo fuera de un mercado durante años.</p>
+
+                <h3>El Representante Local</h3>
+                <p>Un representante local es una persona o una pequeña empresa que actúa como sus ojos, oídos y puerta de entrada en el mercado. Se encarga de las presentaciones, asiste a las reuniones en su nombre y navega por el panorama institucional. La ventaja es la flexibilidad y el costo. El riesgo es la dependencia de una sola persona y la capacidad de trabajo limitada.</p>
+
+                <h3>El Distribuidor</h3>
+                <p>Un distribuidor asume un papel comercial más activo. Mantiene inventario, gestiona las relaciones con los clientes y, a menudo, se encarga del soporte posventa. La ventaja es que aporta la infraestructura existente y el acceso a los clientes. El riesgo es que también representa otros productos, a veces incluyendo a sus competidores.</p>
+
+                <h3>La Empresa Conjunta (Joint Venture)</h3>
+                <p>Una JV significa crear una entidad compartida con un socio local. Este es el modelo más pesado y, por lo general, solo tiene sentido para compromisos de mercado grandes y a largo plazo. La ventaja es la profunda integración local. El riesgo es la complejidad, el control compartido y las salidas extremadamente difíciles.</p>
+
+                <div class="article-pullquote">
+                    <p>"El socio que elija en el tercer mes definirá su posición en el mercado durante los próximos tres a cinco años. Trate esta decisión con la seriedad que merece."</p>
+                </div>
+
+                <div class="article-divider"></div>
+
+                <h2>El Error que Cometen la Mayoría de las Empresas</h2>
+                <p>Este es el patrón: una empresa decide ingresar a un nuevo mercado. En su primera feria comercial, alguien se le acerca y le dice: "Puedo representarlo aquí". La persona parece tener contactos, habla con confianza y conoce los nombres correctos. La empresa firma un acuerdo en pocos meses.</p>
+                <p>Dieciocho meses después, no ha pasado nada. No hay contratos. No hay un canal real de oportunidades. Y la empresa está atrapada en un acuerdo de exclusividad que le impide trabajar con cualquier otra persona en ese mercado.</p>
+                <p>La solución no es atractiva pero es esencial. Diligencia debida (due diligence). Verificación de referencias. Un período de prueba antes de la exclusividad. Y una cláusula de salida que lo proteja si la relación no produce resultados.</p>
+            `
         }
     },
     'pb-trade-shows': {
@@ -992,6 +1260,45 @@ const articleContent = {
                 <p>Her savunma fuarı zamanınızı ve bütçenizi hak etmez. Değerlendirilecek temel faktörler açıktır. Sadece katılımcı olarak değil, alıcı olarak kimler katılıyor? O pazardaki satın alma aktivite seviyesi nedir? Fuar karar vericileri mi, yoksa sadece gözlemcileri mi çekiyor?</p>
                 <p>Bazı bölgesel savunma fuarları, birden fazla ülkeden gerçek tedarik heyetleri çektikleri için boylarından büyük iş yapar. Diğerleri kağıt üzerinde etkileyici görünür ama ağırlıklı olarak birbirlerine bakan diğer katılımcılar tarafından ziyaret edilir.</p>
                 <p>Daha önce katılmış şirketlere sorun. Cilalı referans için değil. Gerçekte ne elde ettiklerinin dürüst değerlendirmesi için.</p>
+            `
+        },
+        es: {
+            category: "Playbook",
+            title: "El Manual de Ferias Comerciales: Cómo Gastar $50k y no Obtener Nada",
+            desc: "Las exposiciones de defensa son costosas. Si se presenta sin un manual específico, le está escribiendo un cheque a los organizadores sin recibir nada a cambio.",
+            readTime: "6 min de lectura",
+            date: "Abril 2026",
+            thumbnail: "thumbnails/pb-trade-shows.png",
+            body: `
+<div class="article-keypoints">
+                    <div class="article-keypoints-title">Puntos Clave</div>
+                    <ul>
+                        <li>Las ferias comerciales son herramientas, no estrategias. Un stand no es un plan de desarrollo de negocios</li>
+                        <li>El verdadero trabajo ocurre en los 60 días anteriores al inicio de la feria</li>
+                        <li>Si no tiene reuniones programadas con objetivos clave, no vaya</li>
+                        <li>La estrategia de seguimiento es donde la mayoría de las empresas fallan. Planifíquela antes de hacer las maletas</li>
+                    </ul>
+                </div>
+
+                <h2>El Costo de Presentarse</h2>
+                <p>Una pequeña cabina en una exposición de defensa internacional cuesta al menos diez mil dólares. Si se añaden los gastos de viaje, el envío de materiales, el diseño gráfico y las comidas, el costo sube a cincuenta mil dólares con facilidad. Y eso para una presencia modesta.</p>
+                <p>La mayoría de las empresas justifican este gasto con declaraciones vagas sobre "presencia de marca" y "mostrar apoyo a la industria".</p>
+                <p>Esas son racionalizaciones para una mala planificación. Si gasta cincuenta mil dólares y no puede rastrear ese gasto hasta oportunidades concretas en su canal de ventas en los meses siguientes, ha desperdiciado su dinero.</p>
+
+                <div class="article-pullquote">
+                    <p>"Una feria comercial no es un evento de marketing. Es un acelerador de ventas condensado en tres días. Si su equipo de ventas no está reservado al máximo antes de que abra el piso de exhibición, ha fallado en la preparación."</p>
+                </div>
+
+                <h2>El Manual de Pre-Feria</h2>
+                <p>El verdadero trabajo de una feria comercial se realiza semanas antes de que comience el evento. Las empresas de éxito siguen un proceso riguroso.</p>
+                <p>Comienzan identificando quién de su lista de objetivos asistirá. Se ponen en contacto con ellos de forma proactiva para concertar reuniones breves y específicas. No piden una hora de su tiempo. Piden quince minutos para tratar un tema concreto.</p>
+                <p>El objetivo es llenar su agenda con reuniones preprogramadas antes de subir al avión. El stand de exhibición no es un lugar para esperar a que la gente aparezca; es un punto de encuentro para conversaciones que ya han sido concertadas.</p>
+
+                <div class="article-divider"></div>
+
+                <h2>La Trampa del Piso de Exhibición</h2>
+                <p>Es fácil dejarse absorber por el ajetreo del piso de exhibición. Hablar con transeúntes, recoger folletos de competidores, charlar con otros expositores. Todo esto hace que se sienta ocupado. Pero rara vez produce resultados comerciales.</p>
+                <p>Mantenga a su equipo enfocado. Su trabajo no es entretener a los curiosos. Es ejecutar las reuniones de su agenda, documentar los resultados e identificar los próximos pasos de inmediato. Todo lo demás es una distracción que reduce el retorno de su inversión.</p>
             `
         }
     },
@@ -1087,6 +1394,51 @@ const articleContent = {
                 <p>Birçok şirketi şaşırtan bir şey var. Yolsuzluk ve düzenleyici kestirmelerin yaygın olduğu pazarlarda, kanıtlanabilir temiz bir uyum sicili aslında bir satış argümanıdır. Birçok ülkedeki satın alma yetkilileri, ilerde sorun yaratmayacak ortaklarla çalışmak için artan baskı altındadır.</p>
                 <p>Güçlü uyum programlarına sahip şirketler sadece riskten kaçınmaz. Güven kazanır. Ve savunmada güven, diğer her şeyin üzerine inşa edildiği para birimidir.</p>
             `
+        },
+        es: {
+            category: "Playbook",
+            title: "El Checklist de Cumplimiento de Exportación que Nadie le da Antes de su Primer Negocio",
+            desc: "El cumplimiento no es un detalle legal. En defensa, es un factor decisivo. Si lo hace mal, se enfrenta a multas, listas negras o algo peor.",
+            readTime: "6 min de lectura",
+            date: "Marzo 2026",
+            thumbnail: "thumbnails/pb-export-compliance.png",
+            body: `
+<div class="article-keypoints">
+                    <div class="article-keypoints-title">Puntos Clave</div>
+                    <ul>
+                        <li>El cumplimiento comienza el primer día, no cuando está listo para enviar el producto</li>
+                        <li>Cada país tiene su propio régimen de control de exportaciones. No asuma que la autorización de su país de origen es suficiente</li>
+                        <li>La certificación de usuario final es el documento más crítico de la transacción</li>
+                        <li>Las sanciones por incumplimiento son graves y personales. La ignorancia no es una defensa</li>
+                    </ul>
+                </div>
+
+                <h2>Lo No Negociable</h2>
+                <p>En el sector de la defensa comercial, el cumplimiento de las normas de exportación no es un trámite administrativo. Es la base de su negocio. Puede tener el mejor producto, el mejor precio y el cliente más interesado, pero si no consigue la licencia de exportación, no tiene nada.</p>
+                <p>Muchas empresas tratan el cumplimiento como una tarea de última hora, algo que resuelven una vez cerrado el trato. Ese es un error que puede acabar con su empresa.</p>
+
+                <div class="article-pullquote">
+                    <p>"El cumplimiento de las exportaciones no es un obstáculo para la venta; es el marco dentro del cual se realiza la venta. Si no puede exportar legalmente su producto, sus esfuerzos de venta son inútiles."</p>
+                </div>
+
+                <h2>Los Cuatro Pilares del Cumplimiento</h2>
+                <h3>1. Determinación de la Jurisdicción</h3>
+                <p>Debe saber exactamente qué leyes de control de exportaciones se aplican a su producto. No se trata solo de dónde se fabrica la empresa. Si utiliza componentes de otros países (especialmente de EE. UU.), puede estar sujeto a sus leyes de exportación además de las de su propio país.</p>
+
+                <h3>2. Verificación del Usuario Final</h3>
+                <p>Debe saber exactamente quién utilizará su producto. Esto requiere una debida diligencia rigurosa sobre el cliente y el país de destino. La certificación de usuario final (EUC) es su documento más importante; debe ser auténtica, verificable y completa.</p>
+
+                <h3>3. Proceso de Licencias</h3>
+                <p>Solicitar licencias lleva tiempo. Construya esto en su cronograma de ventas. No prometa plazos de entrega que supongan que la aprobación de la licencia se producirá de la noche a la mañana. Planifique retrasos y trabaje en estrecha colaboración con las autoridades de exportación.</p>
+
+                <h3>4. Mantenimiento de Registros</h3>
+                <p>Documente todo. Cada conversación, cada decisión, cada verificación de cumplimiento. Si alguna vez se enfrenta a una auditoría o investigación, sus registros documentados serán su única defensa real.</p>
+
+                <div class="article-divider"></div>
+
+                <h2>Una Cultura de Cumplimiento</h2>
+                <p>El cumplimiento de las exportaciones no es responsabilidad de una sola persona en la oficina legal. Debe ser parte de la cultura de su empresa. Sus equipos de ventas deben entender los límites, sus ingenieros deben conocer las restricciones de la tecnología y su liderazgo debe respaldar las decisiones de cumplimiento, incluso cuando esto signifique rechazar una oportunidad dudosa.</p>
+            `
         }
     },
 
@@ -1173,6 +1525,43 @@ const articleContent = {
                 <h3>Bütçe Artışı Pazar Erişimi Değildir</h3>
                 <p>Bir ülke savunma bütçesini ikiye katlayabilir ve yine de erişilemez olabilir; tedarik altyapısı olgun değilse, düzenleyici çerçeve belirsizse veya yerleşik ilişkiler yeni girenleri engelliyorsa. Bütçe verileri paranın nerede olduğunu söyler. Saha analizi, gerçekten erişip erişemeyeceğinizi söyler.</p>
             `
+        },
+        es: {
+            category: "Market Pulse",
+            title: "Hacia Dónde va Realmente el Dinero: Análisis de Presupuestos de Defensa 2026",
+            desc: "El gasto en defensa está aumentando a nivel mundial. Pero los números macro ocultan la historia real. Aquí es donde realmente se está gastando el presupuesto.",
+            readTime: "6 min de lectura",
+            date: "Junio 2026",
+            thumbnail: "thumbnails/mp-defense-budgets.png",
+            body: `
+<div class="article-keypoints">
+                    <div class="article-keypoints-title">Puntos Clave</div>
+                    <ul>
+                        <li>El aumento de los presupuestos no se traduce automáticamente en oportunidades abiertas para los proveedores extranjeros</li>
+                        <li>La categoría presupuestaria de más rápido crecimiento es la modernización y la defensa electrónica</li>
+                        <li>Los requisitos de contenido local están aumentando en casi todos los mercados</li>
+                        <li>Es fundamental comprender la diferencia entre la aprobación del presupuesto y la ejecución de las compras</li>
+                    </ul>
+                </div>
+
+                <h2>Lo Macro frente a lo Micro</h2>
+                <p>Es fácil entusiasmarse con los titulares. "El presupuesto de defensa nacional aumenta un veinte por ciento". "El gasto militar alcanza un máximo histórico".</p>
+                <p>Pero una cosa es un presupuesto aprobado y otra una licitación real. Gran parte del aumento se destina a gastos operativos, salarios, mantenimiento de equipos existentes y pensiones. El porcentaje del presupuesto disponible para nuevas adquisiciones de tecnología suele ser mucho menor de lo que sugieren los titulares.</p>
+
+                <div class="article-pullquote">
+                    <p>"Un presupuesto de defensa creciente y una oportunidad creciente para su empresa son cosas muy diferentes. La primera es una tendencia macro. La segunda requiere comprender qué se está comprando realmente y quién lo está comprando."</p>
+                </div>
+
+                <h2>Los Sectores de Mayor Crecimiento</h2>
+                <p>Muchos mercados de defensa en desarrollo están aumentando el gasto en modernización a tasas que superan las compras tradicionales. Se trata de países que históricamente han mantenido fuerzas armadas más pequeñas y con menos tecnología y que ahora están invirtiendo en actualizar sus capacidades en múltiples áreas.</p>
+                <p>Las áreas con mayor demanda son las de tecnología intensiva: sistemas de vigilancia, infraestructura de comunicaciones, ciberseguridad, plataformas autónomas y capacidades definidas por software.</p>
+
+                <div class="article-divider"></div>
+
+                <h2>El Mandato de Contenido Local</h2>
+                <p>Junto con el aumento de los presupuestos, se observa un incremento en las exigencias de transferencia de tecnología y contenido local. Los gobiernos ya no quieren limitarse a comprar equipos extranjeros; quieren desarrollar sus industrias de defensa locales, crear empleo de alta tecnología y mantener la soberanía sobre sus capacidades clave.</p>
+                <p>Esto significa que las empresas extranjeras que deseen acceder a estos presupuestos deben estar dispuestas a asociarse con empresas locales, transferir ciertos conocimientos y realizar parte de la producción o el soporte técnico en el país de destino. Quienes se nieguen a jugar bajo estas reglas se encontrarán con las puertas cerradas, independientemente de la calidad de su producto.</p>
+            `
         }
     },
     'mp-procurement-shift': {
@@ -1252,6 +1641,45 @@ const articleContent = {
                 <h2>Düzensiz Yaygınlaşma</h2>
                 <p>Her pazar aynı hızda ilerlemiyor. Bazı ülkeler gerçekten işlevsel sofistike e-tedarik sistemleri kurmuştur. Diğerleri kağıt üzerinde var olan ama anlamlı herhangi bir şey için hâlâ yüz yüze etkileşim gerektiren dijital platformlar başlatmıştır.</p>
                 <p>Dijital hedef ile operasyonel gerçeklik arasındaki açık dramatik biçimde değişiyor. Her pazarın bu yelpazede gerçekte nerede durduğunu anlamak, iş geliştirme kaynaklarını nereye yatıracağına karar veren şirketler için kritiktir.</p>
+            `
+        },
+        es: {
+            category: "Market Pulse",
+            title: "La Ola de Modernización de Adquisiciones que Nadie Vio Venir",
+            desc: "Las adquisiciones de defensa se están digitalizando. Lenta y desigualmente, con consecuencias que nadie anticipó por completo.",
+            readTime: "6 min de lectura",
+            date: "Mayo 2026",
+            thumbnail: "thumbnails/mp-procurement-shift.png",
+            body: `
+<div class="article-keypoints">
+                    <div class="article-keypoints-title">Puntos Clave</div>
+                    <ul>
+                        <li>Varios ministerios de defensa están digitalizando sus procesos de compras simultáneamente</li>
+                        <li>Las adquisiciones digitales aumentan la transparencia pero también incrementan la competencia</li>
+                        <li>Las empresas que solían ganar únicamente gracias a sus relaciones sienten que el terreno se mueve</li>
+                        <li>La adopción temprana de herramientas de compra digital crea una ventaja competitiva medible</li>
+                    </ul>
+                </div>
+
+                <h2>La Revolución Silenciosa</h2>
+                <p>No ocupó titulares. No hubo ningún anuncio ni ninguna conferencia importante de la industria. Pero en los últimos tres años, ocurrió algo muy significativo en las adquisiciones de defensa en múltiples mercados emergentes.</p>
+                <p>Se digitalizaron.</p>
+                <p>Los portales de licitación sustituyeron a las llamadas telefónicas. Los sistemas de registro en línea reemplazaron las visitas en persona a las oficinas de compras. Las plataformas de presentación digital sustituyeron a la entrega física de documentos. Y las implicaciones son mayores de lo que la mayoría de las empresas cree.</p>
+
+                <div class="article-pullquote">
+                    <p>"Las adquisiciones digitales no son solo un cambio de formato. Es un cambio de poder. Hace que las compras sean más transparentes, más competitivas y más difíciles de navegar para las empresas que dependían de canales informales."</p>
+                </div>
+
+                <h2>Lo que Significa en la Práctica</h2>
+                <p>Durante décadas, las adquisiciones de defensa en muchos mercados operaron a través de redes informales. Si conocía a la gente adecuada, se enteraba de las oportunidades con anticipación. Si no, es posible que nunca se enterara de ellas.</p>
+                <p>Las plataformas digitales de compras cambian esa dinámica. Las licitaciones se publican abiertamente. Los requisitos se documentan formalmente. Los criterios de evaluación se especifican de antemano. Esto es objetivamente mejor para la integridad del proceso. Pero también significa que las empresas que dependían principalmente de la información basada en relaciones están perdiendo su ventaja informativa.</p>
+                <p>Las empresas que se adaptan más rápido son las que conbiman la gestión tradicional de relaciones con un monitoreo digital sistemático. Siguen conociendo a las personas adecuadas, pero también disponen de sistemas para rastrear las licitaciones publicadas, controlar los plazos de compra y responder a oportunidades que ahora son visibles para un campo competitivo mucho más amplio.</p>
+
+                <div class="article-divider"></div>
+
+                <h2>Un Despliegue Desigual</h2>
+                <p>No todos los mercados se mueven a la misma velocidad. Algunos países han implementado sistemas de compras electrónicas muy sofisticados y funcionales. Otros han puesto en marcha plataformas digitales que existen en el papel pero que siguen requiriendo la interacción en persona para cualquier trámite importante.</p>
+                <p>La brecha entre la aspiración digital y la realidad operativa varía drásticamente. Entender en qué punto de este espectro se encuentra realmente cada mercado es fundamental para las empresas que deciden dónde invertir sus recursos de desarrollo de negocio.</p>
             `
         }
     },
@@ -1336,6 +1764,46 @@ const articleContent = {
 
                 <h3>Pazar Girişi İçin Ne Anlama Geliyor?</h3>
                 <p>Yeni bir pazara giren yazılım odaklı bir savunma şirketiyseniz, en büyük zorluğunuz muhtemelen teknik değildir. Prosedüreldir. Hedef pazarınızdaki tedarik sistemi, sattığınız şeyi gerçekten satın alabilir mi? Cevap "kolay değil" ise, bu pazarın kapalı olduğu anlamına gelmez. Müşterinin ürününüzü mevcut çerçeveleri dahilinde nasıl tedarik edeceğini anlamasına yardımcı olmaya yatırım yapmanız gerektiği anlamına gelir.</p>
+            `
+        },
+        es: {
+            category: "Market Pulse",
+            title: "La Defensa Definida por Software Reconfigura Cómo Compran los Ejércitos",
+            desc: "La transición de una defensa centrada en el hardware a una centrada en el software no está por llegar; ya está aquí. Y está cambiando las adquisiciones más rápido de lo que los sistemas de compra pueden adaptarse.",
+            readTime: "7 min de lectura",
+            date: "Abril 2026",
+            thumbnail: "thumbnails/mp-software-defined.png",
+            body: `
+<div class="article-keypoints">
+                    <div class="article-keypoints-title">Puntos Clave</div>
+                    <ul>
+                        <li>Las fuerzas militares están trasladando el gasto de las plataformas de hardware al software que se ejecuta en ellas</li>
+                        <li>Los marcos de adquisición tradicionales se crearon para tanques y aviones, no para actualizaciones de software</li>
+                        <li>Esto genera oportunidades para las empresas tecnológicas, pero también fricciones en las compras</li>
+                        <li>Ganarán las empresas que tiendan un puente entre la innovación de software y la cultura de compras de defensa</li>
+                    </ul>
+                </div>
+
+                <h2>El Hardware es el Cuerpo. El Software es la Mente.</h2>
+                <p>Un sistema de radar es tan bueno como su software de procesamiento de señales. Un vehículo blindado se define tanto por su conjunto de guerra electrónica como por su blindaje. Un sistema de vigilancia es, en realidad, una plataforma de datos con cámaras conectadas.</p>
+                <p>Esto no es una predicción. Es el estado actual de la tecnología de defensa moderna. Y está creando una tensión fundamental en la forma en que los ejércitos compran equipos.</p>
+
+                <div class="article-pullquote">
+                    <p>"A los sistemas de adquisiciones diseñados para comprar un tanque en un ciclo de siete años se les pide ahora que compren software que necesita actualizarse cada seis meses. No se trata de un pequeño ajuste del proceso. Es un desajuste estructural."</p>
+                </div>
+
+                <h2>La Brecha de Adquisiciones</h2>
+                <p>La mayoría de los marcos de compras de defensa se diseñaron para el hardware. Ciclos de desarrollo largos, especificaciones fijas, contratos plurianuales y pruebas de aceptación basadas en criterios de rendimiento físico. Estos sistemas funcionan bien para comprar barcos, aviones y vehículos, pero funcionan terriblemente para comprar software.</p>
+                <p>El software es iterativo. Necesita actualizaciones continuas, un despliegue rápido y especificaciones flexibles. La idea de congelar los requisitos del software tres años antes de la entrega y esperar que el resultado sea relevante es, francamente, absurda. Pero eso es exactamente lo que muchos sistemas de compras siguen exigiendo.</p>
+
+                <div class="article-divider"></div>
+
+                <h2>La Oportunidad</h2>
+                <p>Para las empresas de defensa centradas en la tecnología, esta brecha es en realidad una oportunidad. Los ejércitos saben que sus procesos no son adecuados para la adquisición de software y buscan activamente soluciones de empresas que puedan ofrecer capacidades definidas por software dentro de los límites de los marcos existentes, al tiempo que ayudan a que estos evolucionen.</p>
+                <p>Las empresas que tengan éxito serán las que hablen ambos idiomas. Deben entender tanto el desarrollo de software como las adquisiciones de defensa. La tecnología por sí sola no es suficiente. La capacidad de empaquetar esa tecnología de forma que los responsables de las compras puedan adquirirla es lo que separa a los ganadores de los frustrados.</p>
+
+                <h3>Lo que Significa para la Entrada al Mercado</h3>
+                <p>Si es una empresa de defensa centrada en el software que ingresa a un nuevo mercado, su mayor desafío probablemente no sea técnico. Es de procedimiento. ¿Puede el sistema de compras de su mercado objetivo adquirir realmente lo que usted vende? Si la respuesta es "no fácilmente", eso no significa que el mercado esté cerrado. Significa que debe invertir en ayudar al cliente a entender cómo adquirir su producto dentro de su marco regulatorio existente.</p>
             `
         }
     },
@@ -1429,6 +1897,51 @@ const articleContent = {
                 <p>İlişki odaklı bir pazara giriyorsanız, zamana yatırım yapın. Varlığa. İhtiyacınız olmadan önce güven inşa etmeye. İlk yılınız anlaşma kapatmakla değil, güvenilirlik oluşturmakla ilgili olmalıdır.</p>
                 <p>Hibrit bir pazara giriyorsanız, ikisine de ihtiyacınız var. Ve sürecin hangi unsurlarının resmi olduğunu, hangilerinin ilişkilerden etkilendiğini anlamanız gerekiyor. Bunu yanlış yapmak, ya kimsenin okumadığı evrak işlerine aşırı yatırım yapmak ya da gerçekten önemli olan ilişkilere yetersiz yatırım yapmak demektir.</p>
             `
+        },
+        es: {
+            category: "Market Pulse",
+            title: "Cinco Culturas de Compra, Cinco Manuales Diferentes",
+            desc: "Las compras de defensa no son un proceso universal. Es algo profundamente cultural. Si aplica el mismo manual en todas partes, perderá en todas partes.",
+            readTime: "7 min de lectura",
+            date: "Marzo 2026",
+            thumbnail: "thumbnails/mp-five-cultures.png",
+            body: `
+<div class="article-keypoints">
+                    <div class="article-keypoints-title">Puntos Clave</div>
+                    <ul>
+                        <li>La cultura de adquisiciones varía tanto como la cultura nacional. Ignorar esto es un error estratégico</li>
+                        <li>Algunos mercados se basan en los procesos, otros en las relaciones; la mayoría son una mezcla de ambos</li>
+                        <li>Comprender la cultura de compras local ahorra meses de esfuerzos mal dirigidos</li>
+                        <li>La empresa que adapte su enfoque a cada mercado superará a la que aplique una plantilla estándar</li>
+                    </ul>
+                </div>
+
+                <h2>El Mito del Manual Universal</h2>
+                <p>He aquí un error muy común. Una empresa tiene éxito en un mercado de defensa y asume que el mismo enfoque funcionará en el siguiente. Utilizan la misma presentación, la misma estructura de socios y las mismas expectativas de plazos.</p>
+                <p>Casi nunca funciona.</p>
+                <p>Las adquisiciones de defensa no son solo un proceso técnico. Es un proceso cultural. La forma en que se toman las decisiones, quién influye en ellas, cómo se construye la confianza, qué papel desempeñan los procesos formales frente a las relaciones informales... todo esto varía drásticamente de un país a otro.</p>
+
+                <div class="article-pullquote">
+                    <p>"Cada mercado de defensa tiene su propio ritmo. La empresa que intente forzar su ritmo de mercado de origen sobre un comprador extranjero siempre sentirá que está empujando contra la corriente."</p>
+                </div>
+
+                <h2>El Espectro</h2>
+                <h3>Mercados Basados en Procesos</h3>
+                <p>Algunos mercados gestionan las adquisiciones casi exclusivamente a través de procesos formales y documentados. Las licitaciones se publican con especificaciones claras, los criterios de evaluación se definen de antemano y las decisiones son rastreables y auditables. En estos mercados, la calidad de su propuesta, el cumplimiento técnico y la estrategia de precios son las variables principales.</p>
+
+                <h3>Mercados Basados en Relaciones</h3>
+                <p>Otros mercados funcionan a base de relaciones. El proceso formal existe, pero las decisiones reales se toman antes de que se publique la licitación. Importa a quién conoce, cuánto tiempo hace que lo conocen y si ha demostrado compromiso con el mercado a lo largo del tiempo. En estos mercados, presentarse con el mejor producto y el mejor precio es necesario pero no suficiente.</p>
+
+                <h3>El Enfoque Híbrido</h3>
+                <p>La mayoría de los mercados son una mezcla de ambos. Tienen procesos formales que importan, pero dentro de esos procesos, las relaciones y la confianza influyen en los resultados. Comprender la proporción exacta en cada mercado es la clave para un posicionamiento eficaz.</p>
+
+                <div class="article-divider"></div>
+
+                <h2>Implicaciones Prácticas</h2>
+                <p>Si entra en un mercado basado en procesos, invierta en la calidad de la propuesta, la documentación de cumplimiento y la precisión técnica. Su presentación escrita será lo más importante.</p>
+                <p>Si entra en un mercado basado en relaciones, invierta tiempo y presencia para construir confianza antes de necesitarla. Su primer año debe centrarse en establecer la credibilidad, no en cerrar tratos.</p>
+                <p>Si entra en un mercado híbrido, necesita ambas cosas. Y debe comprender qué elementos del proceso son formales y cuáles están influenciados por las relaciones. Equivocarse en esto significa invertir demasiado en papeleo que nadie lee o no invertir lo suficiente en relaciones que sí importan.</p>
+            `
         }
     },
 
@@ -1512,6 +2025,45 @@ const articleContent = {
                 <p>Bir planla gelin. Bir umutla değil. Bir planla. Kiminle tanışmak istediğinizi, neden tanışmak istediğinizi ve her konuşmada ne başarmak istediğinizi tam olarak bilin.</p>
                 <p>Stantınızı ayırtmadan önce toplantılarınızı ayırtın. Etkinlik öncesinde toplantı takviminizi dolduramıyorsanız, stanta ihtiyacınız olup olmadığını yeniden değerlendirin. En etkili fuar katılımcılarından bazılarının stantı yoktur. Bir toplantı odaları, randevularla dolu bir takvimleri ve on kişilik bir yemek rezervasyonları vardır.</p>
                 <p>Ve 48 saat içinde takip yapın. Genel bir "tanıştığımıza memnun oldum" e-postası değil. Konuştuğunuz konuya atıfta bulunan ve somut bir sonraki adım öneren spesifik, kişiselleştirilmiş bir takip. Fuar yatırımının karşılığını verdiği ya da buharlaştığı yer, bu takiptir.</p>
+            `
+        },
+        es: {
+            category: "Field Notes",
+            title: "Lo que Realmente se ve en una Expo de Defensa (Y que Nadie Escribe)",
+            desc: "La historia oficial de las exposiciones de defensa es pulida y profesional. La experiencia real es algo completamente diferente.",
+            readTime: "5 min de lectura",
+            date: "Junio 2026",
+            thumbnail: "thumbnails/fn-defense-expo.png",
+            body: `
+<div class="article-keypoints">
+                    <div class="article-keypoints-title">Puntos Clave</div>
+                    <ul>
+                        <li>Las conversaciones más valiosas en las ferias de defensa ocurren fuera del pabellón de exposiciones</li>
+                        <li>El tamaño del stand casi no tiene correlación con los resultados comerciales</li>
+                        <li>Las empresas que acuden con reuniones programadas previamente se van con oportunidades reales</li>
+                        <li>El error más común es tratar la feria como la estrategia en sí, en lugar de como una herramienta dentro de ella</li>
+                    </ul>
+                </div>
+
+                <h2>El Espectáculo Real</h2>
+                <p>Al entrar en cualquier gran feria de defensa, lo primero que llama la atención es la escala. Stands enormes con maquetas de vehículos a tamaño real, paredes de LED que muestran vídeos cinematográficos de productos y personal con trajes a juego repartiendo bolsas de la marca.</p>
+                <p>Se ve impresionante. Se siente importante. Pero la mayor parte es puro teatro.</p>
+                <p>El verdadero espectáculo ocurre en las salas de reuniones detrás de los stands, en los vestíbulos de los hoteles, en los restaurantes cercanos... en las conversaciones discretas entre personas que ya se conocen y utilizan la feria como una excusa conveniente para coincidir en la misma ciudad al mismo tiempo.</p>
+
+                <div class="article-pullquote">
+                    <p>"Lo mejor de una feria de defensa es que reúne en un mismo lugar a quinientas personas clave con las que debe reunirse durante tres días. Lo peor es cuando las empresas lo desaprovechan quedándose detrás de un stand esperando a que alguien se acerque."</p>
+                </div>
+
+                <h2>Lo que Nadie le Cuenta</h2>
+                <p>¿Esas visitas de delegaciones que se ven tan impresionantes en las fotos? La mayoría son recorridos de quince minutos en los que las personalidades apenas se detienen. Mantener una conversación real con un alto responsable de compras en un stand es muy raro. Lograrlo mientras toman un café en el hotel de al lado es mucho más probable.</p>
+                <p>¿Las tarjetas de visita que recoge en el stand? La mayoría nunca responderá a su correo de seguimiento. En cambio, las tres reuniones preprogramadas con personas que realmente tienen autoridad presupuestaria son las que terminan convirtiéndose en oportunidades reales en su canal de ventas.</p>
+
+                <div class="article-divider"></div>
+
+                <h2>Cómo Ganar Realmente en una Expo</h2>
+                <p>Preséntese con un plan, no con una esperanza. Conozca exactamente con quién quiere reunirse, por qué y qué quiere conseguir en cada conversación.</p>
+                <p>Reserve sus reuniones antes de reservar su stand. Si no puede llenar su agenda de reuniones antes del evento, reconsidere si realmente necesita un stand. Algunos de los participantes más eficaces no tienen stands: tienen una sala de reuniones, un calendario lleno de citas y una reserva para cenar para diez personas.</p>
+                <p>Y haga el seguimiento en un plazo de 48 horas. No envíe un correo genérico diciendo "un placer conocerle". Realice un seguimiento específico y personalizado que haga referencia a lo que discutieron y proponga un siguiente paso concreto. En el seguimiento es donde la inversión de la feria da sus frutos o se evapora.</p>
             `
         }
     },
@@ -1597,6 +2149,46 @@ const articleContent = {
                 <h3>Uzun Oyun</h3>
                 <p>Bazı ilişkilerin kurulması yıllar alır. 2026'da bir konferansta kısaca tanıştığınız yetkili, 2028'de bir programın karar vericisi olabilir. Bu ilişkileri sabırla, ani getiri beklemeden sürdüren şirketler, doğru zamanda doğru konuşmalarda kendilerini bulanlar olur.</p>
             `
+        },
+        es: {
+            category: "Field Notes",
+            title: "El Problema del Oficial de Adquisiciones",
+            desc: "Conseguir acceso a la persona adecuada en un ministerio de defensa es el desafío más antiguo del sector. También es el más incomprendido.",
+            readTime: "5 min de lectura",
+            date: "Mayo 2026",
+            thumbnail: "thumbnails/fn-procurement-official.png",
+            body: `
+<div class="article-keypoints">
+                    <div class="article-keypoints-title">Puntos Clave</div>
+                    <ul>
+                        <li>El acceso no es el problema real. Lo es la relevancia. Los funcionarios se reúnen con empresas que consideran creíbles</li>
+                        <li>El contacto en frío con los oficiales de adquisiciones casi nunca funciona en defensa</li>
+                        <li>Las presentaciones a través de intermediarios de confianza siguen siendo el canal de acceso más eficaz</li>
+                        <li>Construir una relación con un oficial bien conectado vale más que enviar correos a cincuenta de ellos</li>
+                    </ul>
+                </div>
+
+                <h2>El Verdadero Problema</h2>
+                <p>Toda empresa de defensa que entra en un nuevo mercado tropieza con la misma pared. Sabe quién es el comprador, sabe lo que necesita y sabe que su producto encaja. Pero no consigue entrar en la sala de reuniones.</p>
+                <p>Se suele asumir que el problema es el acceso. Si consiguieran una reunión, ganarían el contrato. Así que las empresas lo intentan todo: correos electrónicos en frío a contactos del ministerio, mensajes de LinkedIn, solicitudes a través de embajadas o acercamientos en ferias comerciales. La mayor parte no lleva a ninguna parte.</p>
+                <p>But the problem is not really access. The problem is relevance. Los oficiales de adquisiciones se reúnen constantemente, pero solo lo hacen con empresas que ya conocen o que vienen recomendadas por personas en las que confían. Presentarse como una entidad desconocida pidiendo tiempo no es un problema de acceso; es un problema de credibilidad.</p>
+
+                <div class="article-pullquote">
+                    <p>"Nadie en las adquisiciones de defensa ignora a una empresa que cree que puede resolver su problema. Ignoran a empresas de las que nunca han oído hablar y que piden algo sin ofrecer nada a cambio."</p>
+                </div>
+
+                <div class="article-divider"></div>
+
+                <h2>Lo que Realmente Funciona</h2>
+                <h3>La Presentación de Confianza</h3>
+                <p>La forma más eficaz de conseguir una reunión con un oficial de compras es a través de alguien en quien ya confíe. Un representante local que tenga una relación previa, un oficial militar retirado que actúe como asesor o un colega de otro ministerio que pueda hacer una recomendación creíble.</p>
+
+                <h3>El Enfoque de "Valor Primero"</h3>
+                <p>En lugar de pedir una reunión, ofrezca algo útil. Un informe sectorial, un análisis de mercado o una invitación a un evento relevante. Cuando empieza ofreciendo valor en lugar de un argumento de venta directo, la dinámica cambia por completo.</p>
+
+                <h3>El Juego a Largo Plazo</h3>
+                <p>Algunas relaciones tardan años en consolidarse. El oficial que conoce brevemente en una conferencia en 2026 puede convertirse en el responsable de la toma de decisiones de un programa en 2028. Las empresas que mantienen estas relaciones pacientemente, sin esperar retornos inmediatos, son las que se encuentran en las conversaciones adecuadas en el momento preciso.</p>
+            `
         }
     },
     'fn-deals-at-dinner': {
@@ -1676,6 +2268,44 @@ const articleContent = {
                 <p>Bu dinamik her yerde vardır, ama yoğunluğu kültüre göre değişir. Bazı pazarlarda savunma işinin ilişki boyutu o kadar güçlüdür ki, hiçbir teknik üstünlük zayıf kişisel bağlantıları telafi edemez. Diğerlerinde ilişki önemlidir ama bağımsız ağırlık taşıyan güçlü bir resmi sürecin yanında durur.</p>
                 <p>Hedef pazarınızın bu yelpazede nereye düştüğünü anlamak hayatidir. İlişki odaklı bir pazarda ilişkilere az yatırım yapmak ölümcüldür. Süreç odaklı bir pazarda aşırı yatırım yapmak israftır.</p>
                 <p>Beceri, hangisinin hangisi olduğunu bilmektir. Ve bu bilgi ancak orada olmaktan gelir.</p>
+            `
+        },
+        es: {
+            category: "Field Notes",
+            title: "Por Qué los Mejores Negocios de Defensa Comienzan en una Cena",
+            desc: "El proceso formal de adquisición determina quién gana. Pero las relaciones que dan forma a esos resultados se construyen en las comidas, no en las salas de reuniones.",
+            readTime: "5 min de lectura",
+            date: "Abril 2026",
+            thumbnail: "thumbnails/fn-deals-at-dinner.png",
+            body: `
+<div class="article-keypoints">
+                    <div class="article-keypoints-title">Puntos Clave</div>
+                    <ul>
+                        <li>El desarrollo de negocios de defensa se basa fundamentalmente en las relaciones en la mayoría de los mercados</li>
+                        <li>Los entornos informales donde se construye la confianza son tan importantes como las reuniones formales donde se discuten los acuerdos</li>
+                        <li>La fluidez cultural en torno a las cenas, el protocolo y la hospitalidad es una habilidad profesional subestimada</li>
+                        <li>Las empresas que invierten en la infraestructura de sus relaciones superan a las que solo se centran en las propuestas</li>
+                    </ul>
+                </div>
+
+                <h2>La Reunión Extraoficial</h2>
+                <p>Hay algo que todo el mundo en el desarrollo de negocios de defensa sabe pero nadie pone en un documento de estrategia: las conversaciones más importantes ocurren durante la cena.</p>
+                <p>Not every conversation. Not every deal. Pero sí aquellos en los que se construye la confianza, se ventilan las preocupaciones reales y alguien le dice lo que realmente necesita en lugar de lo que la licitación (RFP) dice que necesita. Esas conversaciones ocurren cuando la gente está relajada, cuando las dinámicas formales se dejan de lado y cuando son solo dos personas hablando con franqueza sobre un desafío común.</p>
+
+                <div class="article-pullquote">
+                    <p>"Se aprende más sobre un mercado en tres cenas que en treinta presentaciones de PowerPoint. Las reuniones formales le dicen lo que la gente debe decir; las informales, lo que realmente piensa."</p>
+                </div>
+
+                <h2>Por Qué Funciona Esto</h2>
+                <p>Las adquisiciones de defensa son un negocio que exige un alto nivel de confianza. Los productos son costosos, hay mucho en juego y las consecuencias de elegir al socio equivocado son graves. En ese entorno, los oficiales de compras no solo evalúan productos; evalúan a las personas.</p>
+                <p>Can they trust you? Will you deliver what you promise? Will you still be responsive after the contract is signed? Estas son preguntas que no pueden responderse en una propuesta por escrito. Se responden a través de la interacción personal repetida a lo largo del tiempo.</p>
+                <p>And personal interaction, real personal interaction, happens most naturally in informal settings. A dinner. A coffee meeting. A side conversation at a conference. These are not perks of the job. They are the job.</p>
+
+                <div class="article-divider"></div>
+
+                <h2>La Variable Cultural</h2>
+                <p>Esta dinámica existe en todas partes, pero su intensidad varía según la cultura. En algunos mercados, la dimensión relacional del negocio de defensa es tan fuerte que ninguna superioridad técnica puede compensar una red débil de contactos personales. En otros, la relación importa pero se complementa con un proceso formal e independiente de gran peso.</p>
+                <p>Comprender dónde se sitúa su mercado objetivo en este espectro es esencial. No invertir lo suficiente en relaciones en un mercado relacional es fatal; invertir en exceso en un mercado basado en procesos es un desperdicio. La habilidad clave radica en saber distinguir cada caso, y ese conocimiento solo se adquiere estando sobre el terreno.</p>
             `
         }
     },
@@ -1760,6 +2390,47 @@ const articleContent = {
                 <p>Bir bölge bir pazar değildir. Aynı coğrafi alanı paylaşan farklı pazarların toplamıdır. Her ülkenin kendi savunma bakanlığı, kendi tedarik kuralları, kendi bütçe döngüsü, kendi siyasi dinamikleri ve kendi rekabet ortamı vardır.</p>
                 <p>Ülke dinamiklerini birbirinden ayırmadan "bölgesel strateji" geliştiren şirketler, kaçınılmaz olarak kaynakları yanlış dağıtır. Henüz hazır olmayan bir pazara ağır yatırım yaparken, aktif olarak alım yapan bir pazarı görmezden gelirler. Ya da bir ülkede işe yarayan stratejiyi, dinamiklerin tamamen farklı olduğu komşuya uygularlar.</p>
                 <p>Çözüm basit ama disiplin gerektirir. Her ülkeyi kendi pazarı olarak görün. Her birini bağımsız olarak değerlendirin. Ve kaynakları, gerçek fırsatın nerede olduğuna göre dağıtın, haritanın önerdiği yere göre değil.</p>
+            `
+        },
+        es: {
+            category: "Field Notes",
+            title: "Tres Errores que todo Equipo de Entrada al Mercado Comete la Primera Vez",
+            desc: "Tras observar a decenas de empresas ingresar a nuevos mercados de defensa, el patrón de errores de los principiantes es notablemente constante.",
+            readTime: "6 min de lectura",
+            date: "Marzo 2026",
+            thumbnail: "thumbnails/fn-market-entry.png",
+            body: `
+<div class="article-keypoints">
+                    <div class="article-keypoints-title">Puntos Clave</div>
+                    <ul>
+                        <li>Sobreevaluar la velocidad de las adquisiciones de defensa es el error número uno</li>
+                        <li>Subestimar la importancia de la presencia local es el error número dos</li>
+                        <li>Tratar a la región como un único mercado es el error número tres</li>
+                        <li>Los tres errores se pueden prevenir con una mejor inteligencia previa y expectativas realistas</li>
+                    </ul>
+                </div>
+
+                <h2>Error 1: La Fantasía del Cronograma</h2>
+                <p>Toda empresa que entra en un nuevo mercado de defensa tiene un cronograma. Suele ser algo así: primer trimestre, establecer presencia; segundo trimestre, construir cartera; tercer trimestre, presentar propuestas; cuarto trimestre, ganar contrato.</p>
+                <p>Casi nunca funciona de esa manera.</p>
+                <p>Los ciclos de adquisiciones en defensa son largos. Y no nos referimos a "unos meses más largos que en el sector comercial", sino a que son genuina y estructuralmente dilatados. Desde el contacto inicial hasta la firma del contrato, lo normal son de dieciocho a treinta y seis meses, pudiendo ser aún más para programas de gran envergadura.</p>
+                <p>Las empresas que planean recuperar su inversión en doce meses están destinadas a la frustración. Las que planifican para treinta y seis meses y estructuran sus recursos en consecuencia son las que, cinco años después, siguen en el mercado cerrando contratos.</p>
+
+                <div class="article-pullquote">
+                    <p>"La razón más común por la que las empresas abandonan un mercado de defensa prometedor son las expectativas de plazos poco realistas. Se retiran en el mes catorce, justo antes de que las cosas empiecen a moverse."</p>
+                </div>
+
+                <h2>Error 2: La Ilusión de la Gestión Remota</h2>
+                <p>Es de lo más tentador creer que se puede gestionar un nuevo mercado a distancia: volar para las ferias comerciales, contar con un contacto local que informe periódicamente y dirigir el desarrollo del negocio desde la oficina central.</p>
+                <p>En los mercados comerciales, esto puede funcionar; en defensa, casi nunca. La intensidad de las relaciones, la complejidad institucional y la necesidad de información local en tiempo real hacen que la presencia física no solo sea útil, sino imprescindible.</p>
+                <p>Esto no significa que necesite una oficina completa desde el primer día, sino que alguien debe estar sobre el terreno con la frecuencia suficiente para entablar relaciones reales, comprender las dinámicas locales y responder a las oportunidades en tiempo real.</p>
+
+                <div class="article-divider"></div>
+
+                <h2>Error 3: La Asunción del Mercado Único</h2>
+                <p>Una región no es un mercado. Es un conjunto de mercados distintos que comparten un área geográfica. Cada país tiene su propio ministerio de defensa, sus reglas de adquisiciones, su ciclo presupuestario, su dinámica política y su propio panorama competitivo.</p>
+                <p>Las empresas que diseñan una "estrategia regional" sin diferenciar las dinámicas de cada país acaban distribuyendo mal sus recursos. Invierten mucho en un mercado que aún no está preparado mientras ignoran otro que está comprando activamente, o aplican en un país la estrategia que funcionó en el vecino, donde las dinámicas son totalmente distintas.</p>
+                <p>La solución es directa pero requiere disciplina: trate a cada país como un mercado propio, evalúe cada uno de forma independiente y asigne recursos en función de dónde esté la oportunidad real, no de lo que sugiera el mapa.</p>
             `
         }
     }
