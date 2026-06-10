@@ -2496,6 +2496,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Opportunity Alert Elements
     const alertBtn = document.getElementById('alertBtn');
+    const alertHint = document.getElementById('alertHint');
     const opportunityCard = document.getElementById('opportunityCard');
     const opportunityCtaBtn = document.getElementById('opportunityCtaBtn');
 
@@ -3093,6 +3094,12 @@ document.addEventListener('DOMContentLoaded', () => {
             updateAlertTooltip();
         });
         updateAlertTooltip();
+    }
+
+    if (alertHint && alertBtn) {
+        alertHint.addEventListener('click', () => {
+            alertBtn.click();
+        });
     }
 
     function openContactForm() {
